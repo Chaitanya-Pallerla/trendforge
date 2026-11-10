@@ -167,7 +167,7 @@ def _public_repo(r: dict) -> dict:
     return out
 
 
-def run(*, use_ai: bool = True) -> dict:
+def run(*, use_ai: bool = True, force_ai: bool = False) -> dict:
     now = datetime.now(timezone.utc)
     log.info("TrendForge build starting %s", now.isoformat(timespec="seconds"))
 
@@ -190,7 +190,8 @@ def run(*, use_ai: bool = True) -> dict:
         published.setdefault(r["full_name"], r)
     pub_list = sorted(published.values(), key=lambda r: -r["score"])
 
-    ai_result = ai.run_ai(pub_list, [c["id"] for c in categories], repos_by_cat, talk_by_cat, enabled=use_ai)
+    ai_result = ai.run_ai(pub_list, [c["id"] for c in categories], repos_by_cat, talk_by_cat,
+                          enabled=use_ai, force=force_ai)
     for c in categories:
         if c["id"] in ai_result["categories"]:
             c["analysis"] = ai_result["categories"][c["id"]]
@@ -198,7 +199,8 @@ def run(*, use_ai: bool = True) -> dict:
     payload = {
         "generated_at": now.isoformat(timespec="seconds"),
         "ai_enabled": ai_result["enabled"] or bool(ai_result["categories"]),
-        "ai": {k: ai_result[k] for k in ("backend", "repos_analyzed", "categories_analyzed", "usage")},
+        "ai": {k: ai_result[k] for k in ("backend", "repos_analyzed", "categories_analyzed", "usage",
+                                         "last_run", "interval_days")},
         "stats": {
             "repos_tracked": len(ranked),
             "repos_published": len(pub_list),

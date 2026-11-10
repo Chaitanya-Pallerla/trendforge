@@ -40,7 +40,7 @@ CATEGORY_IDS = [c.id for c in CATEGORIES] + ["other"]
 REPO_CACHE = CONFIG.cache_dir / "repo_insights.json"
 CAT_CACHE = CONFIG.cache_dir / "category_analysis.json"
 REPO_TTL = timedelta(days=60)
-CAT_TTL = timedelta(days=7)
+CAT_TTL = timedelta(days=6)   # < the weekly AI interval, so each weekly run refreshes topics
 CAT_MIN_OVERLAP = 5          # of the top 8 repos; fewer shared => topic changed, re-analyze
 REPO_BATCH = 25
 README_CHARS = 500
@@ -400,13 +400,33 @@ def analyze_categories(backend, ranked: list[str], repos_by_cat: dict, talk_by_c
 # Entry point
 # ---------------------------------------------------------------------------
 
+STATE = CONFIG.cache_dir / "ai_state.json"
+
+
+def _ai_due(state: dict) -> bool:
+    if CONFIG.ai_interval_days <= 1:
+        return True
+    try:
+        last = datetime.fromisoformat(state["last_run"])
+    except (KeyError, ValueError, TypeError):
+        return True
+    # small slack so a run at 08:05 still counts as "7 days" after one at 08:10
+    return datetime.now(timezone.utc) - last >= timedelta(days=CONFIG.ai_interval_days, hours=-3)
+
+
 def run_ai(repos: list[dict], ranked_categories: list[str], repos_by_cat: dict, talk_by_cat: dict,
-           *, enabled: bool = True) -> dict:
+           *, enabled: bool = True, force: bool = False) -> dict:
     """Apply cached insights; if enabled, fill gaps with as few Claude calls as possible."""
     repo_cache, cat_cache = _load(REPO_CACHE), _load(CAT_CACHE)
     usage = Usage()
-    backend = make_backend(usage) if enabled else None
-    status = {"enabled": False, "backend": None, "repos_analyzed": 0, "categories_analyzed": 0}
+    state = _load(STATE)
+    due = force or _ai_due(state)
+    if enabled and not due:
+        log.info("AI step skipped (runs every %d days; last run %s). Use --ai-now to force.",
+                 CONFIG.ai_interval_days, state.get("last_run", "never"))
+    backend = make_backend(usage) if (enabled and due) else None
+    status = {"enabled": False, "backend": None, "repos_analyzed": 0, "categories_analyzed": 0,
+              "last_run": state.get("last_run"), "interval_days": CONFIG.ai_interval_days}
     if backend is None:
         if enabled:
             log.info("AI layer off: no Claude Code CLI login or API key found")
@@ -422,6 +442,10 @@ def run_ai(repos: list[dict], ranked_categories: list[str], repos_by_cat: dict, 
                                                                talk_by_cat, cat_cache)
         except AIDisabled as exc:
             log.warning("AI stopped for this run: %s", exc)
+        if usage.calls:
+            state["last_run"] = _now()
+            write_json(STATE, state)
+            status["last_run"] = state["last_run"]
         log.info("AI: %d new repo insights, %d topic analyses, %d calls, %d input + %d output tokens",
                  status["repos_analyzed"], status["categories_analyzed"], usage.calls,
                  usage.input_tokens, usage.output_tokens)

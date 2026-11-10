@@ -84,3 +84,16 @@ def test_inline_refs_has_no_refs():
     # every required field must be defined (regression: a field named "title" was stripped)
     assert set(idea["required"]) <= set(idea["properties"])
     assert "title" in idea["properties"]
+
+
+def test_ai_due_weekly():
+    from datetime import datetime, timedelta, timezone
+    from trendforge import ai
+    object.__setattr__(ai.CONFIG, "ai_interval_days", 7)
+    now = datetime.now(timezone.utc)
+    assert ai._ai_due({}) is True
+    assert ai._ai_due({"last_run": (now - timedelta(days=2)).isoformat()}) is False
+    assert ai._ai_due({"last_run": (now - timedelta(days=7, hours=-1)).isoformat()}) is True
+    object.__setattr__(ai.CONFIG, "ai_interval_days", 1)
+    assert ai._ai_due({"last_run": now.isoformat()}) is True
+    object.__setattr__(ai.CONFIG, "ai_interval_days", 7)

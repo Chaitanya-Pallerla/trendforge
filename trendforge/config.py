@@ -53,7 +53,9 @@ class Config:
     # Empty = the CLI's default model (API backend falls back to claude-opus-5-5).
     ai_model: str = field(default_factory=lambda: os.environ.get("TRENDFORGE_AI_MODEL", ""))
     ai_effort: str = field(default_factory=lambda: os.environ.get("TRENDFORGE_AI_EFFORT", "low"))
-    ai_max_new_repos: int = field(default_factory=lambda: int(os.environ.get("TRENDFORGE_AI_MAX_REPOS", "30")))
+    # Run the AI step at most every N days (data collection stays daily). 1 = every run.
+    ai_interval_days: int = field(default_factory=lambda: int(os.environ.get("TRENDFORGE_AI_INTERVAL_DAYS", "7")))
+    ai_max_new_repos: int = field(default_factory=lambda: int(os.environ.get("TRENDFORGE_AI_MAX_REPOS", "50")))
     ai_max_categories: int = field(default_factory=lambda: int(os.environ.get("TRENDFORGE_AI_MAX_CATEGORIES", "8")))
     has_anthropic_key: bool = field(
         default_factory=lambda: bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))

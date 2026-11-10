@@ -17,6 +17,7 @@ def main(argv: list[str] | None = None) -> int:
 
     p_run = sub.add_parser("run", help="collect data and rebuild site/data + reports")
     p_run.add_argument("--no-ai", action="store_true", help="skip the Claude analysis layer")
+    p_run.add_argument("--ai-now", action="store_true", help="run the AI step even if it isn't due yet")
     p_run.add_argument("--no-reddit", action="store_true", help="skip Reddit")
     p_run.add_argument("-v", "--verbose", action="store_true")
 
@@ -35,7 +36,7 @@ def main(argv: list[str] | None = None) -> int:
             os.environ["TRENDFORGE_REDDIT"] = "0"
             object.__setattr__(CONFIG, "reddit_enabled", False)
         from .pipeline import run
-        run(use_ai=not args.no_ai)
+        run(use_ai=not args.no_ai, force_ai=args.ai_now)
         return 0
 
     if args.cmd == "serve":
