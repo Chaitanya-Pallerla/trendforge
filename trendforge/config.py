@@ -42,9 +42,17 @@ class Config:
     camofox_url: str = field(default_factory=lambda: os.environ.get("CAMOFOX_URL", "").rstrip("/"))
     camofox_api_key: str = field(default_factory=lambda: os.environ.get("CAMOFOX_API_KEY", ""))
 
-    # AI layer (Claude). "auto" = on when credentials are present.
+    # AI layer (Claude).
+    #   TRENDFORGE_AI       auto | on | off   (auto = on when a backend is available)
+    #   TRENDFORGE_AI_BACKEND  auto | cli | api
+    #     cli = your Claude account via the Claude Code CLI (`claude -p`), no API key needed
+    #     api = Anthropic API key (ANTHROPIC_API_KEY), e.g. for the GitHub Actions backup run
     ai_mode: str = field(default_factory=lambda: os.environ.get("TRENDFORGE_AI", "auto").lower())
-    ai_model: str = field(default_factory=lambda: os.environ.get("TRENDFORGE_AI_MODEL", "claude-opus-5-5"))
+    ai_backend: str = field(default_factory=lambda: os.environ.get("TRENDFORGE_AI_BACKEND", "auto").lower())
+    claude_cli: str = field(default_factory=lambda: os.environ.get("CLAUDE_CLI", ""))
+    # Empty = the CLI's default model (API backend falls back to claude-opus-5-5).
+    ai_model: str = field(default_factory=lambda: os.environ.get("TRENDFORGE_AI_MODEL", ""))
+    ai_effort: str = field(default_factory=lambda: os.environ.get("TRENDFORGE_AI_EFFORT", "low"))
     ai_max_new_repos: int = field(default_factory=lambda: int(os.environ.get("TRENDFORGE_AI_MAX_REPOS", "30")))
     ai_max_categories: int = field(default_factory=lambda: int(os.environ.get("TRENDFORGE_AI_MAX_CATEGORIES", "8")))
     has_anthropic_key: bool = field(

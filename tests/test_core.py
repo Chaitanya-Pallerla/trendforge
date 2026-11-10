@@ -71,3 +71,16 @@ def test_update_trends_same_day_overwrites():
     assert t["dates"] == ["2026-01-01", "2026-01-02"]
     assert t["categories"]["a"] == [1, 3]
     assert t["categories"]["b"] == [None, 6]
+
+
+def test_inline_refs_has_no_refs():
+    import json
+    from trendforge.ai import CategoryBatch, _inline_refs
+    schema = _inline_refs(CategoryBatch.model_json_schema())
+    text = json.dumps(schema)
+    assert "$ref" not in text and "$defs" not in text
+    assert schema["additionalProperties"] is False
+    idea = schema["properties"]["items"]["items"]["properties"]["analysis"]["properties"]["ideas"]["items"]
+    # every required field must be defined (regression: a field named "title" was stripped)
+    assert set(idea["required"]) <= set(idea["properties"])
+    assert "title" in idea["properties"]

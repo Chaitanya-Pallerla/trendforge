@@ -190,18 +190,15 @@ def run(*, use_ai: bool = True) -> dict:
         published.setdefault(r["full_name"], r)
     pub_list = sorted(published.values(), key=lambda r: -r["score"])
 
-    if use_ai:
-        ai_result = ai.run_ai(pub_list, [c["id"] for c in categories], repos_by_cat, talk_by_cat)
-    else:
-        ai.apply_cached_insights(pub_list)
-        ai_result = {"enabled": False, "repos_analyzed": 0, "categories": {}}
+    ai_result = ai.run_ai(pub_list, [c["id"] for c in categories], repos_by_cat, talk_by_cat, enabled=use_ai)
     for c in categories:
         if c["id"] in ai_result["categories"]:
             c["analysis"] = ai_result["categories"][c["id"]]
 
     payload = {
         "generated_at": now.isoformat(timespec="seconds"),
-        "ai_enabled": ai_result["enabled"],
+        "ai_enabled": ai_result["enabled"] or bool(ai_result["categories"]),
+        "ai": {k: ai_result[k] for k in ("backend", "repos_analyzed", "categories_analyzed", "usage")},
         "stats": {
             "repos_tracked": len(ranked),
             "repos_published": len(pub_list),

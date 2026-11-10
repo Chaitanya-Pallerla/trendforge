@@ -113,7 +113,13 @@ def fetch_reddit(limit_per_sub: int = 15) -> list[dict]:
             # Reddit's .json API now rejects logged-out clients, even real browsers;
             # the rendered page works, so read posts from the DOM.
             try:
-                for p in _reddit_via_browser(client, sub, limit_per_sub):
+                try:
+                    posts = _reddit_via_browser(client, sub, limit_per_sub)
+                except Exception as first_exc:   # cold browser start can time out once; retry
+                    log.info("reddit r/%s: retrying after %s", sub, first_exc)
+                    client._tabs.pop("__scrape__", None)
+                    posts = _reddit_via_browser(client, sub, limit_per_sub)
+                for p in posts:
                     link = p["url"]
                     items.append({
                         "source": "reddit", "title": p["title"],

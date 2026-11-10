@@ -33,7 +33,7 @@ Reddit          ─┘   (camofox-browser fallback for blocked sites)           
 | Star growth | `stars today/this week` from GitHub Trending, plus daily snapshots in `data/snapshots/` (committed to git, so history accumulates for free) |
 | Topic momentum | Sum of trend scores of the top repos in a topic; the change is versus 7 days ago (`site/data/trends.json`) |
 | Categories | Transparent keyword + GitHub-topic rules in [`trendforge/categories.py`](trendforge/categories.py) — PRs welcome |
-| AI layer | Claude via the Anthropic SDK with structured outputs. Repo insights are cached for 30 days, so each daily run only analyzes new repos (≈30 repos + 8 topics per day) |
+| AI layer | Claude through **your Claude account** via the Claude Code CLI (`claude -p`, no API key), or an API key as fallback. Built to be token-efficient: tools/MCP/default system prompt disabled, repos batched ~25 per call, repo insights cached 60 days, topic analyses reused until a topic's leading repos change (max 7 days), all stale topics in one call. Typical day: 1–3 calls, ~15–30k tokens. Cache lives in `data/cache/` |
 
 ## Quick start
 
@@ -161,6 +161,48 @@ _775 repositories and 236 discussions analyzed from api, hackernews, reddit, sea
 - [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl/contribute) — 141.5k★ · Python
 - [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/contribute) — 135.4k★ · TypeScript
 - [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 133.9k★ · C++
+
+### 💡 Build opportunities
+
+#### AI Agents
+
+Growth is going to tools that give agents new abilities. vercel-labs/agent-desktop (+12120), cloudflare/security-audit-skill (+10695) and NVIDIA/auto-ontology (+10159) gained the most stars. Skill collections are also growing fast: mattpocock/skills has 319861★ (+9800), and claude-mem added +5130.
+
+**Gaps:** No way to test or score whether a skill actually improves agent output; Skills from different repos can conflict or duplicate each other, and nothing manages that; Hard to see what agents with desktop or VM access actually did; Multi-agent setups are hard to debug once they reach dozens of agents
+
+- **Skill Bench** _(intermediate 🎓)_ — A harness that runs the same tasks with and without a skill and reports the difference in results. Skill authors and teams choosing skills would use it.
+- **Skill Lockfile** _(beginner 🎓)_ — A CLI that installs skills from several repos, pins their versions and flags overlapping or conflicting instructions. Developers mixing skill packs would use it.
+- **Agent Action Replay** _(advanced)_ — A recorder that captures accessibility-tree actions from desktop and browser agents and lets users replay them step by step. Teams auditing computer-use agents would use it.
+
+#### Developer Tools
+
+Rust CLIs built for agents lead this category: agent-desktop gained +12120 and worktrunk gained +2395. Worktree management and PR review (pr-agent, +1822) point to developers running several agents in parallel. sherlock (+4267) is still drawing strong interest.
+
+**Gaps:** No dashboard showing which agent is working in which worktree; AI-written PRs are hard to tie back to the agent session that produced them; No simple check of whether a tool's claims are legitimate (for example, dsh-our-free-model's claim of free, unlimited model access with no API key)
+
+- **Worktree Board** _(beginner 🎓)_ — A terminal UI that shows each Git worktree with its branch, the agent running in it, its diff size and test status. Developers running parallel agents would use it.
+- **PR Provenance** _(intermediate 🎓)_ — A git hook plus a GitHub Action that attaches a summary of the agent session and its prompts to each PR. Reviewers using pr-agent-style tools would use it.
+- **Repo Trust Check** _(intermediate 🎓)_ — A CLI that reviews a plugin repo before installation, checking its network calls, credential use and install scripts. Developers trying trending plugins would use it.
+
+#### Web & App Frameworks
+
+Web frameworks are being redesigned with agents as users. meta/astryx (+3278) is a design system built for agents, and Scrapling (+8226) is a scraping framework. Open alternatives to Grok Bot are also rising, such as OpenMausBot (+1587) and rakazo (+143).
+
+**Gaps:** No way to check whether agent-generated UI actually follows a design system; Few templates for web front ends that let people supervise sandboxed bots; Few mobile-first interfaces for controlling agents
+
+- **Design System Linter for Agents** _(intermediate 🎓)_ — A CI check that flags components and tokens in agent-written UI that don't come from astryx or another chosen design system. Frontend teams using coding agents would use it.
+- **Sandbox Bot Console Kit** _(intermediate 🎓)_ — A React starter app that streams the screen, logs and approval prompts from a bot's VM or sandbox. Builders of OpenMausBot or rakazo deployments would use it.
+- **Source-to-Digest Starter** _(beginner 🎓)_ — A small template that uses Scrapling to pull from configured sources and publishes a static daily digest site. Niche communities and students would use it.
+
+#### Infra, Self-hosting & Security
+
+Security work is moving into agents: cloudflare/security-audit-skill gained +10695. Sandboxes for agents are also active (OpenSandbox +168, OpenMausBot +1587), and OSINT tools like sherlock (+4267) keep growing.
+
+**Gaps:** Machine-readable audit findings don't feed into existing issue trackers or SARIF dashboards; Agent sandboxes don't show which network destinations an agent contacts; No guidance on responsible use of OSINT username searches
+
+- **Audit Findings Bridge** _(beginner 🎓)_ — A converter that turns security-audit-skill output into SARIF and GitHub issues, and removes duplicates across runs. Security engineers would use it.
+- **Sandbox Egress Monitor** _(advanced)_ — A sniffnet-style view of the network traffic leaving an OpenSandbox or bot VM, with allow-list alerts. Teams self-hosting agents would use it.
+- **Self Exposure Check** _(intermediate 🎓)_ — A privacy tool that runs only on your own username or device and suggests cleanup steps, combining username searches with NOIR-style app audits. Privacy-minded individuals would use it.
 
 <!-- TRENDFORGE:END -->
 

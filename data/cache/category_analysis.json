@@ -1,0 +1,363 @@
+{
+  "ai-agents": {
+    "analysis": {
+      "why_trending": "Growth is going to tools that give agents new abilities. vercel-labs/agent-desktop (+12120), cloudflare/security-audit-skill (+10695) and NVIDIA/auto-ontology (+10159) gained the most stars. Skill collections are also growing fast: mattpocock/skills has 319861★ (+9800), and claude-mem added +5130.",
+      "what_exists": "There are skill repos from Anthropic, Matt Pocock and Cloudflare, accessibility-tree CLIs for browsers and desktop apps, and memory plugins like claude-mem. There are also large multi-agent setups such as Claude-Code-Game-Studios, which has 49 agents and 72 skills.",
+      "gaps": [
+        "No way to test or score whether a skill actually improves agent output",
+        "Skills from different repos can conflict or duplicate each other, and nothing manages that",
+        "Hard to see what agents with desktop or VM access actually did",
+        "Multi-agent setups are hard to debug once they reach dozens of agents"
+      ],
+      "ideas": [
+        {
+          "title": "Skill Bench",
+          "pitch": "A harness that runs the same tasks with and without a skill and reports the difference in results. Skill authors and teams choosing skills would use it.",
+          "why_now": "Skill repos like mattpocock/skills (+9800) and cloudflare/security-audit-skill (+10695) are growing faster than anyone can evaluate them.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        },
+        {
+          "title": "Skill Lockfile",
+          "pitch": "A CLI that installs skills from several repos, pins their versions and flags overlapping or conflicting instructions. Developers mixing skill packs would use it.",
+          "why_now": "Developers now pull skills from several popular sources at once, including Anthropic, Matt Pocock and Cloudflare.",
+          "difficulty": "beginner",
+          "good_for_students": true
+        },
+        {
+          "title": "Agent Action Replay",
+          "pitch": "A recorder that captures accessibility-tree actions from desktop and browser agents and lets users replay them step by step. Teams auditing computer-use agents would use it.",
+          "why_now": "agent-desktop (+12120) and agent-browser are giving agents control of real apps.",
+          "difficulty": "advanced",
+          "good_for_students": false
+        }
+      ]
+    },
+    "repos": [
+      "milind-soni/OpenMausBot",
+      "meta/astryx",
+      "vercel-labs/agent-desktop",
+      "cloudflare/security-audit-skill",
+      "NVIDIA/auto-ontology",
+      "mattpocock/skills",
+      "anthropics/skills",
+      "vercel-labs/agent-browser"
+    ],
+    "analyzed_at": "2026-11-10T03:19:15+00:00"
+  },
+  "devtools": {
+    "analysis": {
+      "why_trending": "Rust CLIs built for agents lead this category: agent-desktop gained +12120 and worktrunk gained +2395. Worktree management and PR review (pr-agent, +1822) point to developers running several agents in parallel. sherlock (+4267) is still drawing strong interest.",
+      "what_exists": "Tools here include worktrunk for Git worktrees, pr-agent for AI reviews, agent-autoloop for background agent tasks, and Concat, a video editor that can be scripted over MCP. Several new native Rust apps are also listed.",
+      "gaps": [
+        "No dashboard showing which agent is working in which worktree",
+        "AI-written PRs are hard to tie back to the agent session that produced them",
+        "No simple check of whether a tool's claims are legitimate (for example, dsh-our-free-model's claim of free, unlimited model access with no API key)"
+      ],
+      "ideas": [
+        {
+          "title": "Worktree Board",
+          "pitch": "A terminal UI that shows each Git worktree with its branch, the agent running in it, its diff size and test status. Developers running parallel agents would use it.",
+          "why_now": "worktrunk gained +2395 stars as people adopted parallel worktree workflows.",
+          "difficulty": "beginner",
+          "good_for_students": true
+        },
+        {
+          "title": "PR Provenance",
+          "pitch": "A git hook plus a GitHub Action that attaches a summary of the agent session and its prompts to each PR. Reviewers using pr-agent-style tools would use it.",
+          "why_now": "pr-agent (+1822) shows that AI review is becoming standard, but reviewers still lack context on how the code was written.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        },
+        {
+          "title": "Repo Trust Check",
+          "pitch": "A CLI that reviews a plugin repo before installation, checking its network calls, credential use and install scripts. Developers trying trending plugins would use it.",
+          "why_now": "Trending plugins include ones making bold claims, such as dsh-our-free-model's free, unlimited frontier model access.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        }
+      ]
+    },
+    "repos": [
+      "sherlock-project/sherlock",
+      "vercel-labs/agent-desktop",
+      "vercel-labs/agent-browser",
+      "huamidev/GestaltX",
+      "storytold/photocraft",
+      "Ebony-Vinyl/dsh-our-free-model",
+      "jub0t/Concat",
+      "max-sixty/worktrunk"
+    ],
+    "analyzed_at": "2026-11-10T03:19:15+00:00"
+  },
+  "web": {
+    "analysis": {
+      "why_trending": "Web frameworks are being redesigned with agents as users. meta/astryx (+3278) is a design system built for agents, and Scrapling (+8226) is a scraping framework. Open alternatives to Grok Bot are also rising, such as OpenMausBot (+1587) and rakazo (+143).",
+      "what_exists": "Options include agent-friendly design systems (astryx), native UI frameworks (rune), scrapers (Scrapling) and auto-generated news sites (AIHOT). There are also mobile clients for agent harnesses, such as dsh-Go.",
+      "gaps": [
+        "No way to check whether agent-generated UI actually follows a design system",
+        "Few templates for web front ends that let people supervise sandboxed bots",
+        "Few mobile-first interfaces for controlling agents"
+      ],
+      "ideas": [
+        {
+          "title": "Design System Linter for Agents",
+          "pitch": "A CI check that flags components and tokens in agent-written UI that don't come from astryx or another chosen design system. Frontend teams using coding agents would use it.",
+          "why_now": "astryx (+3278) is designed to work with agents, but nothing checks whether agents actually follow it.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        },
+        {
+          "title": "Sandbox Bot Console Kit",
+          "pitch": "A React starter app that streams the screen, logs and approval prompts from a bot's VM or sandbox. Builders of OpenMausBot or rakazo deployments would use it.",
+          "why_now": "Open Grok Bot alternatives like OpenMausBot (+1587) need front ends.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        },
+        {
+          "title": "Source-to-Digest Starter",
+          "pitch": "A small template that uses Scrapling to pull from configured sources and publishes a static daily digest site. Niche communities and students would use it.",
+          "why_now": "Scrapling (+8226) and AIHOT (10100★) show demand for automated topic sites.",
+          "difficulty": "beginner",
+          "good_for_students": true
+        }
+      ]
+    },
+    "repos": [
+      "milind-soni/OpenMausBot",
+      "meta/astryx",
+      "NVIDIA/auto-ontology",
+      "D4Vinci/Scrapling",
+      "ccch1mneyyy/dsh-Go",
+      "deepseek-ai/DeepInfer",
+      "elie222/rakazo",
+      "ruvnet/RuView"
+    ],
+    "analyzed_at": "2026-11-10T03:19:15+00:00"
+  },
+  "infra-security": {
+    "analysis": {
+      "why_trending": "Security work is moving into agents: cloudflare/security-audit-skill gained +10695. Sandboxes for agents are also active (OpenSandbox +168, OpenMausBot +1587), and OSINT tools like sherlock (+4267) keep growing.",
+      "what_exists": "There are agent sandbox runtimes (OpenSandbox), network monitors (sniffnet), Android privacy auditors (NOIR), bloatware removers (cleanyourtv) and agent-run audit skills.",
+      "gaps": [
+        "Machine-readable audit findings don't feed into existing issue trackers or SARIF dashboards",
+        "Agent sandboxes don't show which network destinations an agent contacts",
+        "No guidance on responsible use of OSINT username searches"
+      ],
+      "ideas": [
+        {
+          "title": "Audit Findings Bridge",
+          "pitch": "A converter that turns security-audit-skill output into SARIF and GitHub issues, and removes duplicates across runs. Security engineers would use it.",
+          "why_now": "cloudflare/security-audit-skill (+10695) produces machine-readable findings, but they have nowhere standard to go.",
+          "difficulty": "beginner",
+          "good_for_students": true
+        },
+        {
+          "title": "Sandbox Egress Monitor",
+          "pitch": "A sniffnet-style view of the network traffic leaving an OpenSandbox or bot VM, with allow-list alerts. Teams self-hosting agents would use it.",
+          "why_now": "Agent sandboxes (OpenSandbox, OpenMausBot) are trending alongside network monitoring (sniffnet, 42241★).",
+          "difficulty": "advanced",
+          "good_for_students": false
+        },
+        {
+          "title": "Self Exposure Check",
+          "pitch": "A privacy tool that runs only on your own username or device and suggests cleanup steps, combining username searches with NOIR-style app audits. Privacy-minded individuals would use it.",
+          "why_now": "sherlock (+4267) and NOIR show interest in exposure tools, and this version is aimed at self-defense.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        }
+      ]
+    },
+    "repos": [
+      "sherlock-project/sherlock",
+      "milind-soni/OpenMausBot",
+      "cloudflare/security-audit-skill",
+      "Gathin23/cleanyourtv",
+      "jub0t/Concat",
+      "l0ng-ai/openidea",
+      "elie222/rakazo",
+      "Verlintas/NOIR"
+    ],
+    "analyzed_at": "2026-11-10T03:19:15+00:00"
+  },
+  "llm-apps": {
+    "analysis": {
+      "why_trending": "Users want output that doesn't look AI-generated and agents that remember context. hallmark (+5987) and unslop target generic AI design, and claude-mem (+5130) handles memory. Interest in structured reasoning over data also appears in auto-ontology (+10159).",
+      "what_exists": "Projects include design skills (hallmark, unslop), session memory (claude-mem), tutoring agents (DeepTutor), stock analysis pipelines and Claude quickstarts.",
+      "gaps": [
+        "No objective way to measure whether a design looks AI-generated",
+        "Memory plugins don't let users inspect or edit what was stored",
+        "Few ways to connect ontology layers to existing RAG stacks"
+      ],
+      "ideas": [
+        {
+          "title": "Slop Score",
+          "pitch": "A tool that screenshots a UI and scores it on common AI-generated design patterns, so users can compare results before and after applying hallmark or unslop. Designers and agent users would use it.",
+          "why_now": "hallmark (+5987) and unslop (12808★) show demand, but there is no way to measure their effect.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        },
+        {
+          "title": "Memory Inspector",
+          "pitch": "A local UI for browsing, editing and deleting the compressed sessions stored by claude-mem-style plugins. Heavy agent users would use it.",
+          "why_now": "claude-mem reached 115434★ (+5130), so a lot of memory is being stored without a way to review it.",
+          "difficulty": "beginner",
+          "good_for_students": true
+        },
+        {
+          "title": "Ontology-to-RAG Adapter",
+          "pitch": "A library that adds results from an auto-ontology graph to vector search retrieval. RAG builders would use it.",
+          "why_now": "auto-ontology gained +10159 stars quickly but has no RAG integrations.",
+          "difficulty": "advanced",
+          "good_for_students": false
+        }
+      ]
+    },
+    "repos": [
+      "NVIDIA/auto-ontology",
+      "Nutlope/hallmark",
+      "thedotmack/claude-mem",
+      "Donchitos/Claude-Code-Game-Studios",
+      "Ebony-Vinyl/dsh-our-free-model",
+      "HKUDS/DeepTutor",
+      "ccch1mneyyy/dsh-Go",
+      "heydamir/unslop"
+    ],
+    "analyzed_at": "2026-11-10T03:19:15+00:00"
+  },
+  "ai-coding": {
+    "analysis": {
+      "why_trending": "Coding agents are being extended with design skills (hallmark +5987), memory (claude-mem +5130) and workflow tools like worktrunk (+2395) and pr-agent (+1822). magpie (33214★) shows developers want to switch the model behind each agent.",
+      "what_exists": "magpie routes agents to different models, agent-autoloop runs agents in the background, and pr-agent reviews PRs. Several skill packs are also aimed at Claude Code, Cursor and Codex.",
+      "gaps": [
+        "No cost or quality comparison when switching models behind an agent",
+        "Background agents need better escalation and approval inboxes",
+        "Skills and memory don't carry over between Claude Code, Cursor and Codex"
+      ],
+      "ideas": [
+        {
+          "title": "Model Swap Benchmarks",
+          "pitch": "A runner that sends the same coding task to the same agent with different backend models and compares the diffs, test results and cost. Developers using magpie-style routing would use it.",
+          "why_now": "magpie (33214★) makes model swapping easy but doesn't show the tradeoffs.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        },
+        {
+          "title": "Agent Approval Inbox",
+          "pitch": "A mobile or web inbox that collects decision cards from background coding agents in one place. Solo developers running agent-autoloop would use it.",
+          "why_now": "agent-autoloop (4306★) and dsh-Go point to agents that run unattended and only ask for decisions when needed.",
+          "difficulty": "beginner",
+          "good_for_students": true
+        },
+        {
+          "title": "Cross-Agent Skill Sync",
+          "pitch": "A converter that keeps skills and rules files in sync across Claude Code, Cursor and Codex. Teams using more than one agent would use it.",
+          "why_now": "hallmark already targets all three agents, which shows demand for working across them.",
+          "difficulty": "beginner",
+          "good_for_students": true
+        }
+      ]
+    },
+    "repos": [
+      "milind-soni/OpenMausBot",
+      "Nutlope/hallmark",
+      "thedotmack/claude-mem",
+      "Donchitos/Claude-Code-Game-Studios",
+      "Gathin23/cleanyourtv",
+      "max-sixty/worktrunk",
+      "ccch1mneyyy/dsh-Go",
+      "The-PR-Agent/pr-agent"
+    ],
+    "analyzed_at": "2026-11-10T03:19:15+00:00"
+  },
+  "mcp": {
+    "analysis": {
+      "why_trending": "Creative desktop apps are shipping with MCP built in, such as Concat for video and SolidCraft for CAD. Agent control of apps is also growing fast (agent-desktop +12120, Scrapling +8226), and Anthropic now runs an official plugin directory (46648★).",
+      "what_exists": "There are MCP-scriptable creative apps, Anthropic's official plugin directory and learning resources like ai-engineering-from-scratch. There are also tools like BLA that try to resist AI reverse-engineering.",
+      "gaps": [
+        "No standard test suite for MCP servers built into apps",
+        "Long-running creative MCP operations have no undo or preview",
+        "Hard to find MCP-enabled apps outside the official directory"
+      ],
+      "ideas": [
+        {
+          "title": "MCP Conformance Tester",
+          "pitch": "A CLI that checks an MCP server's schemas, error handling and timeouts. Developers adding MCP to apps like Concat or SolidCraft would use it.",
+          "why_now": "Creative apps such as Concat and SolidCraft are now shipping MCP support.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        },
+        {
+          "title": "MCP Dry-Run Proxy",
+          "pitch": "A proxy that logs tool calls, previews them and lets users roll back destructive calls before they reach the app. Creators who give agents control of editors would use it.",
+          "why_now": "Video and CAD tools like Concat and SolidCraft let agents edit project files directly.",
+          "difficulty": "advanced",
+          "good_for_students": false
+        },
+        {
+          "title": "MCP App Index",
+          "pitch": "A searchable list of desktop apps that support MCP, with their capabilities and setup snippets. Agent users would use it.",
+          "why_now": "The official plugin directory has 46648★, but app-embedded MCP servers are spread across many repos.",
+          "difficulty": "beginner",
+          "good_for_students": true
+        }
+      ]
+    },
+    "repos": [
+      "vercel-labs/agent-desktop",
+      "D4Vinci/Scrapling",
+      "jub0t/Concat",
+      "rohitg00/ai-engineering-from-scratch",
+      "KKKKhazix/agent-autoloop",
+      "tangency-labs/solidcraft",
+      "ruvnet/RuView",
+      "anthropics/claude-plugins-official"
+    ],
+    "analyzed_at": "2026-11-10T03:19:15+00:00"
+  },
+  "browser-agents": {
+    "analysis": {
+      "why_trending": "Scrapling (+8226) leads this category, and accessibility-tree browsing (agent-browser +916) is maturing. New projects give each agent its own browser or computer with audit trails, such as OpenBot, lcu and BrowserKitten.",
+      "what_exists": "Options include scraping frameworks, headless browsers built for agents (ff-ruyijs), side-panel agents in the user's own browser (BrowserKitten) and AI crawler analytics (GEOInflow). There are also OSINT tools like maigret.",
+      "gaps": [
+        "Agent browsing traces aren't reusable as deterministic scripts",
+        "Sites can't easily tell which agents are visiting them",
+        "No shared benchmark across agent browsers"
+      ],
+      "ideas": [
+        {
+          "title": "Trace to Script",
+          "pitch": "A tool that turns a recorded agent-browser session into a repeatable Playwright or Scrapling script. Teams automating recurring tasks would use it.",
+          "why_now": "agent-browser (48584★) and Scrapling (+8226) are both growing, and this connects them.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        },
+        {
+          "title": "Agent Browser Bench",
+          "pitch": "A suite of local test sites for comparing headless agent browsers on accuracy and speed. Tool authors and researchers would use it.",
+          "why_now": "Several agent browsers appeared at the same time, including ff-ruyijs, agent-browser and BrowserKitten.",
+          "difficulty": "intermediate",
+          "good_for_students": true
+        },
+        {
+          "title": "Agent Visitor Policy",
+          "pitch": "Middleware that detects agent traffic and applies site rules, building on GEOInflow-style analytics. Site owners would use it.",
+          "why_now": "More agent browsing means site owners need visibility, as GEOInflow shows.",
+          "difficulty": "advanced",
+          "good_for_students": false
+        }
+      ]
+    },
+    "repos": [
+      "D4Vinci/Scrapling",
+      "vercel-labs/agent-browser",
+      "voyager-so/vork",
+      "CopilotKit/OpenBot",
+      "cutetailbud/ff-ruyijs",
+      "soxoj/maigret",
+      "yaojingang/GEOInflow",
+      "amontlabs/lcu"
+    ],
+    "analyzed_at": "2026-11-10T03:19:15+00:00"
+  }
+}
