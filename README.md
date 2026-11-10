@@ -10,7 +10,9 @@ It has a dedicated **🎓 For Students** track: trending learning resources, roa
 active projects with lots of `good first issue`s for a first open-source contribution, and
 portfolio-worthy project ideas.
 
-- 🌐 **Dashboard** — static site in [`site/`](site/), deployed to GitHub Pages
+- 🌐 **Dashboard** — [chaitanya-pallerla.github.io/trendforge](https://chaitanya-pallerla.github.io/trendforge/):
+  filter by topic, audience (developers/students), language, stars, repo age, source, GitHub topic,
+  "good first issues", "discussed on HN/Reddit" and more. Every filtered view has a shareable link.
 - 📰 **Daily report** — [`reports/LATEST.md`](reports/LATEST.md) (plus a dated archive), and the summary below
 - 🔁 **Updated daily** by GitHub Actions — free to run; no server, no database
 
@@ -49,9 +51,11 @@ pytest -q
 
 ### Using camofox-browser for blocked sites
 
-Some sources (notably Reddit) block plain HTTP clients and datacenter IPs. If `CAMOFOX_URL` points to a
-running [camofox-browser](https://github.com/jo-inc/camofox-browser) server, TrendForge automatically
-retries blocked requests through a real Camoufox browser:
+Some sources (notably Reddit) block plain HTTP clients **and** datacenter IPs such as GitHub Actions
+runners. TrendForge therefore runs best from a normal home connection through
+[camofox-browser](https://github.com/jo-inc/camofox-browser), a real (Camoufox/Firefox) browser with a
+REST API. Requests to blocked sites are made with `fetch()` *inside* a browser tab on that site, so they
+carry a real browser fingerprint and cookies.
 
 ```bash
 # in the camofox-browser repo
@@ -60,14 +64,32 @@ npm install && npm start           # http://localhost:9377
 CAMOFOX_URL=http://localhost:9377
 ```
 
+### Automatic daily run on your PC (Windows)
+
+[`scripts/daily.ps1`](scripts/daily.ps1) starts camofox, collects everything, stops camofox, then commits
+and pushes the new data, which triggers the GitHub Pages redeploy. Schedule it once:
+
+```powershell
+.\scripts\install-schedule.ps1            # every day at 08:00 (runs later if the PC was off)
+.\scripts\install-schedule.ps1 -At 07:30  # pick a time
+Start-ScheduledTask -TaskName 'TrendForge Daily'   # run now
+.\scripts\install-schedule.ps1 -Uninstall
+```
+
+The Camoufox browser (~1.3 GB), profiles and temp files go to `E:\camofox-data` by default
+(`-CamofoxDataDir` or `CAMOFOX_DATA_DIR` to change). Logs are in `logs/`.
+
+The GitHub Actions workflow is the **backup**: at 18:00 UTC it checks whether today's data was already
+pushed. If not (PC was off), it collects without Reddit so the site still updates.
+
 ## Deploy your own (daily updates)
 
 1. Push this folder to a new GitHub repository.
 2. **Settings → Pages → Source: GitHub Actions.**
 3. **Settings → Secrets and variables → Actions**: add `ANTHROPIC_API_KEY` (optional, enables AI analysis).
    `GITHUB_TOKEN` is provided automatically.
-4. **Actions → Daily trend update → Run workflow** once. After that it runs every day at 06:17 UTC,
-   commits the new data and report, and redeploys the dashboard.
+4. **Actions → Daily trend update → Run workflow** once. After that the backup job runs daily at
+   18:00 UTC, and every push of new data (e.g. from `scripts/daily.ps1`) redeploys the dashboard.
 
 ## Contributing
 

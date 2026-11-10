@@ -36,7 +36,7 @@ _773 repositories and 104 discussions analyzed from api, hackernews, search, tre
 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 37.6k | +4.3k this week | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio… |
 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 277.4k |  | DeepSeek Harness: Everything is a Plugin. |
 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 55.5k | new | Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. |
-| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 24.6k | new | Craft Anything: understand how any software works, and craft your own. |
+| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 24.7k | new | Craft Anything: understand how any software works, and craft your own. |
 | [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | 21.8k | new | Towards a More Autonomous Agent System |
 | [huamidev/GestaltX](https://github.com/huamidev/GestaltX) | 2.0k | new | An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages. |
 | [storytold/photocraft](https://github.com/storytold/photocraft) | 78.3k |  | PhotoCraft: An open-source photo editor written from scratch in pure Rust |
@@ -86,7 +86,7 @@ _773 repositories and 104 discussions analyzed from api, hackernews, search, tre
 
 - [Claude Fable 5.2 and Mythos 5.2](https://news.ycombinator.com/item?id=50429906) — Hacker News, 961 points
 - [Nvidia CEO Jensen Huang's letter to staff about affair](https://news.ycombinator.com/item?id=50418016) — Hacker News, 945 points
-- [Goldman Sachs is pulling Claude Code from its bankers and traders](https://news.ycombinator.com/item?id=50415628) — Hacker News, 883 points
+- [Goldman Sachs is pulling Claude Code from its bankers and traders](https://news.ycombinator.com/item?id=50415628) — Hacker News, 884 points
 - [Foldable Flight: The Best Paper Airplanes](https://news.ycombinator.com/item?id=50424581) — Hacker News, 858 points
 - [Goodbye Claude, hello Pi](https://news.ycombinator.com/item?id=50410107) — Hacker News, 805 points
 - [Is Opus 5.5 nerfed? Thinking patterns changed on November 3](https://news.ycombinator.com/item?id=50422069) — Hacker News, 757 points
