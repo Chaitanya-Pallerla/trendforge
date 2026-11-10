@@ -1,0 +1,242 @@
+{
+  "sherlock-project/sherlock": {
+    "summary": "Python CLI that searches social networks for accounts matching a username.",
+    "problem": "Helps security researchers and investigators find a person's accounts across many sites.",
+    "audience": "both",
+    "student_angle": "Shows the basics of OSINT and making HTTP requests to many sites at once.",
+    "category": "infra-security",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "milind-soni/OpenMausBot": {
+    "summary": "Open-source alternative to Grok Bot that gives bots a virtual machine to use.",
+    "problem": "Lets developers run computer-use agents inside a sandboxed VM.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-agents",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "pingdotgg/t3code": {
+    "summary": "Control surface for coding agents, with mobile, web and desktop apps.",
+    "problem": "Lets developers manage Claude Code, Codex, Cursor and other agents on their machine from anywhere.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-coding",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "meta/astryx": {
+    "summary": "Open-source design system that can be fully customized and is built to work with agents.",
+    "problem": "Gives teams UI components that both people and AI agents can use.",
+    "audience": "developers",
+    "student_angle": "Shows how a design system is put together.",
+    "category": "web",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "vercel-labs/agent-desktop": {
+    "summary": "Rust CLI that lets AI agents use desktop apps through the OS accessibility tree.",
+    "problem": "Gives agents computer use on macOS, Windows and Linux without screenshots.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-agents",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "cloudflare/security-audit-skill": {
+    "summary": "Skill that lets a coding agent run multi-phase security audits and output machine-readable findings.",
+    "problem": "Helps developers get security audit findings from agents that are checked independently.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "infra-security",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "NVIDIA/auto-ontology": {
+    "summary": "Python framework for building graph-based semantic reasoning layers over data.",
+    "problem": "Gives LLM and agent workflows deterministic queries, better context retrieval and more explainable results.",
+    "audience": "developers",
+    "student_angle": "Introduces ontologies and knowledge graphs.",
+    "category": "llm-apps",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "mattpocock/skills": {
+    "summary": "Matt Pocock's personal set of agent skills for engineering work.",
+    "problem": "Gives developers ready-made skills to use with their coding agents.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-coding",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "D4Vinci/Scrapling": {
+    "summary": "Python web scraping framework that handles everything from single requests to full crawls.",
+    "problem": "Makes scraping and crawling simpler for developers who need web data.",
+    "audience": "both",
+    "student_angle": "Teaches web scraping and crawling.",
+    "category": "web",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "anthropics/skills": {
+    "summary": "Anthropic's public repository of Agent Skills for Claude.",
+    "problem": "Gives Claude repeatable instructions and scripts for specialized tasks.",
+    "audience": "both",
+    "student_angle": "Good examples of how to write agent skills.",
+    "category": "ai-agents",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "vercel-labs/agent-browser": {
+    "summary": "Rust CLI that lets AI agents drive a browser through the accessibility tree.",
+    "problem": "Lets agents control a browser one shell command at a time.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "browser-agents",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "Nutlope/hallmark": {
+    "summary": "Design skill for Claude Code, Cursor and Codex that aims to stop generic AI-looking design.",
+    "problem": "Helps developers get better-looking UI from coding agents.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-coding",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "thedotmack/claude-mem": {
+    "summary": "Memory plugin that saves agent sessions, compresses them and feeds relevant context into later sessions.",
+    "problem": "Keeps context across sessions for Claude Code, Codex and other agents.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-coding",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "debpalash/VoiceStudio": {
+    "summary": "Fully local, open-source alternative to ElevenLabs for voice cloning, dubbing and transcription.",
+    "problem": "Lets users do voice AI work on their own machine without a paid cloud service.",
+    "audience": "both",
+    "student_angle": "Hands-on practice with local speech models.",
+    "category": "local-inference",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "Donchitos/Claude-Code-Game-Studios": {
+    "summary": "Setup that turns Claude Code into a game studio with 49 agents and 72 workflow skills.",
+    "problem": "Helps game developers organize AI agents along the lines of a real studio team.",
+    "audience": "both",
+    "student_angle": "Shows how to coordinate multiple agents on game development.",
+    "category": "ai-coding",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "deepseek-ai/deepseek-harness": {
+    "summary": "DeepSeek's open-source agent harness (dsh), where everything is a plugin.",
+    "problem": "Gives developers an agent harness they can extend with plugins.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-agents",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "Gathin23/cleanyourtv": {
+    "summary": "Tool that removes bloatware from Android or Google TV over Wi-Fi and adds an Apple TV-style home screen.",
+    "problem": "Helps TV owners get rid of bloatware and clutter.",
+    "audience": "both",
+    "student_angle": "Practical use of ADB.",
+    "category": "other",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "storytold/craft-anything": {
+    "summary": "Rust project for understanding how software works and building your own.",
+    "problem": "Helps learners take apart existing software and rebuild it themselves.",
+    "audience": "students",
+    "student_angle": "Learn how software works by building it yourself.",
+    "category": "students",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "deepseek-ai/dsh-superagent-prototype": {
+    "summary": "DeepSeek research prototype aimed at more autonomous agent systems.",
+    "problem": "Gives researchers reference code for autonomous agents; not ready for production.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-agents",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "huamidev/GestaltX": {
+    "summary": "MobileGestalt editor for iOS 27.x with region-code tweaks, device presets and backups.",
+    "problem": "Lets iOS users change hidden device settings.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "other",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "storytold/photocraft": {
+    "summary": "Open-source photo editor written from scratch in pure Rust.",
+    "problem": "Offers a free, open-source photo editor.",
+    "audience": "both",
+    "student_angle": "Shows how image editing works in Rust.",
+    "category": "other",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "ranxianglei/billion-context": {
+    "summary": "Context-compression plugin for dsh, built for very long sessions.",
+    "problem": "Lets agents run month-long sessions in a 100K context window and claims 5x token savings.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-agents",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "Ebony-Vinyl/dsh-our-free-model": {
+    "summary": "dsh plugin that claims free, unlimited access to frontier models with no API key.",
+    "problem": "Claims to let dsh users use models without signing up; check the source before trusting it.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-agents",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "HKUDS/DeepTutor": {
+    "summary": "AI agent system for personalized tutoring that continues over time.",
+    "problem": "Gives learners personalized, interactive tutoring.",
+    "audience": "students",
+    "student_angle": "A personal AI tutor for self-study.",
+    "category": "students",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "jub0t/Concat": {
+    "summary": "Free, local-first, cross-platform video editor in beta that can be scripted through JSON-RPC and MCP.",
+    "problem": "Gives creators and agents a video editor they can script.",
+    "audience": "both",
+    "student_angle": "",
+    "category": "mcp",
+    "analyzed_at": "2026-11-10T03:12:09+00:00"
+  },
+  "max-sixty/worktrunk": {
+    "summary": "A Rust command-line tool for managing Git worktrees.",
+    "problem": "It helps developers run several AI coding agents in parallel, each on its own worktree.",
+    "audience": "developers",
+    "student_angle": "Shows how Git worktrees let you work on several branches at the same time.",
+    "category": "ai-coding",
+    "analyzed_at": "2026-11-10T03:12:20+00:00"
+  },
+  "google-deepmind/mujoco": {
+    "summary": "A general-purpose physics simulator for multi-joint dynamics with contact.",
+    "problem": "It gives robotics and ML researchers fast, accurate simulation of bodies with joints and contact.",
+    "audience": "both",
+    "student_angle": "A practical way to learn rigid-body physics and robot simulation.",
+    "category": "physical-ai",
+    "analyzed_at": "2026-11-10T03:12:20+00:00"
+  },
+  "NotRexed/Hookshot": {
+    "summary": "A native recompilation of the Nintendo Switch 2 remake of The Legend of Zelda: Ocarina of Time, written in C++.",
+    "problem": "It lets players run the game natively instead of through emulation.",
+    "audience": "developers",
+    "student_angle": "Shows how game binaries can be recompiled into native code.",
+    "category": "other",
+    "analyzed_at": "2026-11-10T03:12:20+00:00"
+  },
+  "ccch1mneyyy/dsh-Go": {
+    "summary": "An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer.",
+    "problem": "It lets DeepSeek Harness users run and control coding agents from their phone.",
+    "audience": "developers",
+    "student_angle": "",
+    "category": "ai-agents",
+    "analyzed_at": "2026-11-10T03:12:20+00:00"
+  },
+  "heydamir/unslop": {
+    "summary": "A Claude skill that redesigns generic, AI-looking UI into a more polished interface.",
+    "problem": "It helps developers who vibe-code apps fix interfaces that look AI-generated.",
+    "audience": "both",
+    "student_angle": "Shows which UI design choices make an interface look deliberately designed.",
+    "category": "ai-coding",
+    "analyzed_at": "2026-11-10T03:12:20+00:00"
+  }
+}

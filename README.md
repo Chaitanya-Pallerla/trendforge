@@ -108,7 +108,7 @@ dashboard (`site/`), or add tests (`tests/`). See the roadmap below.
 <!-- TRENDFORGE:START -->
 ## TrendForge daily report — 2026-11-10
 
-_775 repositories and 244 discussions analyzed from api, hackernews, reddit, search, trending-daily, trending-weekly._
+_775 repositories and 236 discussions analyzed from api, hackernews, reddit, search, trending-daily, trending-weekly._
 
 ### 🔥 Trending technologies
 
@@ -127,16 +127,16 @@ _775 repositories and 244 discussions analyzed from api, hackernews, reddit, sea
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 107.2k | +4.3k today | Hunt down social media accounts by username across social networks |
-| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 19.8k | +1.6k today | Open-source Grok Bot alternative with a virtual machine that bots can use |
-| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | 54.3k | +13.4k this week |  |
-| [meta/astryx](https://github.com/meta/astryx) | 20.3k | +3.3k today | An open source design system that's fully customizable and agent ready |
-| [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 20.6k | +12.1k this week | Computer use CLI for AI agents |
-| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 68.1k | +10.7k this week | A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings |
-| [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | 11.1k | +10.2k this week | Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generat… |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 319.8k | +9.8k this week | Skills for Real Engineers. Straight from my .agents directory. |
-| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 100.6k | +8.2k this week | 🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://… |
-| [anthropics/skills](https://github.com/anthropics/skills) | 191.1k | +1.0k today | Public repository for Agent Skills |
+| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 107.3k | +4.3k today | Python CLI that searches social networks for accounts matching a username. |
+| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 19.8k | +1.6k today | Open-source alternative to Grok Bot that gives bots a virtual machine to use. |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | 54.3k | +13.4k this week | Control surface for coding agents, with mobile, web and desktop apps. |
+| [meta/astryx](https://github.com/meta/astryx) | 20.4k | +3.3k today | Open-source design system that can be fully customized and is built to work with agents. |
+| [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 20.6k | +12.1k this week | Rust CLI that lets AI agents use desktop apps through the OS accessibility tree. |
+| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 68.2k | +10.7k this week | Skill that lets a coding agent run multi-phase security audits and output machine-readable findings. |
+| [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | 11.1k | +10.2k this week | Python framework for building graph-based semantic reasoning layers over data. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 319.9k | +9.8k this week | Matt Pocock's personal set of agent skills for engineering work. |
+| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 100.6k | +8.2k this week | Python web scraping framework that handles everything from single requests to full crawls. |
+| [anthropics/skills](https://github.com/anthropics/skills) | 191.1k | +1.0k today | Anthropic's public repository of Agent Skills for Claude. |
 
 ### 🎓 For students
 
