@@ -14,6 +14,8 @@
 #>
 param(
   [string]$CamofoxDir = $(if ($env:CAMOFOX_DIR) { $env:CAMOFOX_DIR } else { 'E:\camofox-browser-master' }),
+  # Where the Camoufox browser (~1.3 GB), browser profiles and temp files live. Kept off C:.
+  [string]$CamofoxDataDir = $(if ($env:CAMOFOX_DATA_DIR) { $env:CAMOFOX_DATA_DIR } else { 'E:\camofox-data' }),
   [int]$Port = 9377,
   [switch]$NoPush
 )
@@ -45,6 +47,27 @@ if (Test-Camofox) {
 } elseif (-not (Test-Path (Join-Path $CamofoxDir 'node_modules'))) {
   Write-Log "WARNING: $CamofoxDir has no node_modules (run 'npm install' there). Continuing without camofox."
 } else {
+  # Point every camofox / camoufox-js storage location at $CamofoxDataDir (these env vars are
+  # inherited only by the processes started below, not by the rest of the system).
+  $browserDir = Join-Path $CamofoxDataDir 'camoufox\camoufox\Cache'
+  $tmpDir = Join-Path $CamofoxDataDir 'tmp'
+  New-Item -ItemType Directory -Force $browserDir, $tmpDir | Out-Null
+  $env:LOCALAPPDATA = $CamofoxDataDir            # camofox's own cache lookup
+  $env:CAMOUFOX_INSTALL_DIR = $browserDir         # camoufox-js download + launch dir
+  $env:CAMOFOX_PROFILE_DIR = Join-Path $CamofoxDataDir 'profiles'
+  $env:CAMOFOX_COOKIES_DIR = Join-Path $CamofoxDataDir 'cookies'
+  $env:CAMOFOX_UPLOADS_DIR = Join-Path $CamofoxDataDir 'uploads'
+  $env:CAMOFOX_TRACES_DIR = Join-Path $CamofoxDataDir 'traces'
+  $env:TEMP = $tmpDir; $env:TMP = $tmpDir
+
+  if (-not (Test-Path (Join-Path $browserDir 'version.json'))) {
+    Write-Log "Camoufox browser not found in $browserDir; downloading (~1.3 GB, first run only)"
+    Push-Location $CamofoxDir
+    cmd /c "npm run fetch-bin >> `"$(Join-Path $LogDir 'camofox-fetch.log')`" 2>&1"
+    Pop-Location
+    Write-Log ("browser download " + $(if (Test-Path (Join-Path $browserDir 'version.json')) { 'ok' } else { 'FAILED (see logs\camofox-fetch.log)' }))
+  }
+
   Write-Log "starting camofox from $CamofoxDir"
   $started = Start-Process -FilePath 'node' -ArgumentList 'server.js' -WorkingDirectory $CamofoxDir `
     -WindowStyle Hidden -PassThru `

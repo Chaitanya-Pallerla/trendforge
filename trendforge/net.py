@@ -136,6 +136,21 @@ class Camofox:
             raise FetchError(f"camofox fetch {url} -> HTTP {result.get('status')}")
         return result.get("body") or ""
 
+    def scrape(self, url: str, expression: str, settle_seconds: float = 3.0) -> Any:
+        """Navigate a reusable tab to `url` and evaluate `expression` (may return a Promise)."""
+        tab_id = self._tabs.get("__scrape__")
+        if tab_id is None:
+            tab = self._post("/tabs", {"userId": self.user_id, "sessionKey": "trendforge", "url": url})
+            tab_id = tab.get("tabId")
+            if not tab_id:
+                raise FetchError(f"camofox did not return a tabId: {tab}")
+            self._tabs["__scrape__"] = tab_id
+        else:
+            self._post(f"/tabs/{tab_id}/navigate", {"userId": self.user_id, "url": url})
+        time.sleep(settle_seconds)
+        out = self._post(f"/tabs/{tab_id}/evaluate", {"userId": self.user_id, "expression": expression})
+        return out.get("result")
+
     def close(self) -> None:
         for tab_id in self._tabs.values():
             try:
