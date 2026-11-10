@@ -12,6 +12,10 @@ on:
         description: "Skip the Claude analysis layer"
         type: boolean
         default: false
+      force:
+        description: "Re-collect even if today's data was already published (loses Reddit data)"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ["site/**"]
@@ -38,7 +42,7 @@ jobs:
         run: |
           today=$(date -u +%Y-%m-%d)
           gen=$(python3 -c "import json;print(json.load(open('site/data/latest.json'))['generated_at'][:10])" 2>/dev/null || echo none)
-          if [ "$gen" = "$today" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "$gen" = "$today" ] && [ "${{ inputs.force }}" != "true" ]; then
             echo "Data for $today already published by the local run; skipping collection."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
