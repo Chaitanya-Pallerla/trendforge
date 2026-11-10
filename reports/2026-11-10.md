@@ -1,6 +1,6 @@
 # TrendForge daily report — 2026-11-10
 
-_773 repositories and 103 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
+_773 repositories and 104 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
 
 ### 🔥 Trending technologies
 
@@ -21,9 +21,9 @@ _773 repositories and 103 discussions analyzed from api, hackernews, search, tre
 |---|---|---|---|
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 107.2k | +4.3k today | Hunt down social media accounts by username across social networks |
 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 19.8k | +1.6k today | Open-source Grok Bot alternative with a virtual machine that bots can use |
-| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | 54.2k | +13.4k this week |  |
-| [meta/astryx](https://github.com/meta/astryx) | 20.2k | +3.3k today | An open source design system that's fully customizable and agent ready |
-| [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 20.5k | +12.1k this week | Computer use CLI for AI agents |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | 54.3k | +13.4k this week |  |
+| [meta/astryx](https://github.com/meta/astryx) | 20.3k | +3.3k today | An open source design system that's fully customizable and agent ready |
+| [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 20.6k | +12.1k this week | Computer use CLI for AI agents |
 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 68.1k | +10.7k this week | A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings |
 | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | 11.1k | +10.2k this week | Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generat… |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | 319.8k | +9.8k this week | Skills for Real Engineers. Straight from my .agents directory. |
@@ -32,13 +32,13 @@ _773 repositories and 103 discussions analyzed from api, hackernews, search, tre
 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 48.5k | +916 today | Browser automation CLI for AI agents |
 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 51.8k | +6.0k this week | Anti-AI-slop design skill for Claude Code, Cursor, and Codex. |
 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 115.4k | +5.1k this week | Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and inje… |
-| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 106.2k | +1.3k today | VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription… |
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 106.3k | +1.3k today | VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription… |
 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | 37.6k | +4.3k this week | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio… |
 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 277.4k |  | DeepSeek Harness: Everything is a Plugin. |
 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 55.5k | new | Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. |
 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | 24.6k | new | Craft Anything: understand how any software works, and craft your own. |
 | [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | 21.8k | new | Towards a More Autonomous Agent System |
-| [huamidev/GestaltX](https://github.com/huamidev/GestaltX) | 1.9k | new | An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages. |
+| [huamidev/GestaltX](https://github.com/huamidev/GestaltX) | 2.0k | new | An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages. |
 | [storytold/photocraft](https://github.com/storytold/photocraft) | 78.3k |  | PhotoCraft: An open-source photo editor written from scratch in pure Rust |
 | [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) | 5.8k | +760 today | A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and to… |
 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 67.5k |  | 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no logi… |
@@ -84,19 +84,19 @@ _773 repositories and 103 discussions analyzed from api, hackernews, search, tre
 
 ### 💬 Most-discussed
 
-- [Claude Fable 5.2 and Mythos 5.2](https://news.ycombinator.com/item?id=50429906) — Hacker News, 960 points
+- [Claude Fable 5.2 and Mythos 5.2](https://news.ycombinator.com/item?id=50429906) — Hacker News, 961 points
 - [Nvidia CEO Jensen Huang's letter to staff about affair](https://news.ycombinator.com/item?id=50418016) — Hacker News, 945 points
 - [Goldman Sachs is pulling Claude Code from its bankers and traders](https://news.ycombinator.com/item?id=50415628) — Hacker News, 883 points
-- [Foldable Flight: The Best Paper Airplanes](https://news.ycombinator.com/item?id=50424581) — Hacker News, 857 points
+- [Foldable Flight: The Best Paper Airplanes](https://news.ycombinator.com/item?id=50424581) — Hacker News, 858 points
 - [Goodbye Claude, hello Pi](https://news.ycombinator.com/item?id=50410107) — Hacker News, 805 points
-- [Is Opus 5.5 nerfed? Thinking patterns changed on November 3](https://news.ycombinator.com/item?id=50422069) — Hacker News, 756 points
+- [Is Opus 5.5 nerfed? Thinking patterns changed on November 3](https://news.ycombinator.com/item?id=50422069) — Hacker News, 757 points
 - [KetchUp – Open-source SketchUp alternative built with Rust and WebGPU](https://news.ycombinator.com/item?id=50418176) — Hacker News, 732 points
 - [Unlocking any car from X brand in most of the world](https://news.ycombinator.com/item?id=50419215) — Hacker News, 601 points
 - [I'm not convinced the AI bubble exists](https://news.ycombinator.com/item?id=50418975) — Hacker News, 543 points
 - [Outlook.com is rejecting email from domains without DMARC](https://news.ycombinator.com/item?id=50416158) — Hacker News, 531 points
+- [USPS now offers official ZIP Code boundary polygons](https://news.ycombinator.com/item?id=50431058) — Hacker News, 492 points
 - [Statement from Nvidia board of directors](https://news.ycombinator.com/item?id=50416801) — Hacker News, 490 points
-- [USPS now offers official ZIP Code boundary polygons](https://news.ycombinator.com/item?id=50431058) — Hacker News, 489 points
+- [Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system](https://news.ycombinator.com/item?id=50427362) — Hacker News, 476 points
 - [Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://news.ycombinator.com/item?id=50411961) — Hacker News, 475 points
 - [Humans will never again create a project quite like Wikipedia](https://news.ycombinator.com/item?id=50424704) — Hacker News, 471 points
-- [Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system](https://news.ycombinator.com/item?id=50427362) — Hacker News, 471 points
 
