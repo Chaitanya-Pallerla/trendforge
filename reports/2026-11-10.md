@@ -1,6 +1,6 @@
 # TrendForge daily report — 2026-11-10
 
-_773 repositories and 104 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
+_775 repositories and 244 discussions analyzed from api, hackernews, reddit, search, trending-daily, trending-weekly._
 
 ### 🔥 Trending technologies
 
@@ -87,14 +87,14 @@ _773 repositories and 104 discussions analyzed from api, hackernews, search, tre
 - [Claude Fable 5.2 and Mythos 5.2](https://news.ycombinator.com/item?id=50429906) — Hacker News, 961 points
 - [Nvidia CEO Jensen Huang's letter to staff about affair](https://news.ycombinator.com/item?id=50418016) — Hacker News, 945 points
 - [Goldman Sachs is pulling Claude Code from its bankers and traders](https://news.ycombinator.com/item?id=50415628) — Hacker News, 884 points
-- [Foldable Flight: The Best Paper Airplanes](https://news.ycombinator.com/item?id=50424581) — Hacker News, 858 points
+- [Foldable Flight: The Best Paper Airplanes](https://news.ycombinator.com/item?id=50424581) — Hacker News, 860 points
 - [Goodbye Claude, hello Pi](https://news.ycombinator.com/item?id=50410107) — Hacker News, 805 points
 - [Is Opus 5.5 nerfed? Thinking patterns changed on November 3](https://news.ycombinator.com/item?id=50422069) — Hacker News, 757 points
 - [KetchUp – Open-source SketchUp alternative built with Rust and WebGPU](https://news.ycombinator.com/item?id=50418176) — Hacker News, 732 points
 - [Unlocking any car from X brand in most of the world](https://news.ycombinator.com/item?id=50419215) — Hacker News, 601 points
 - [I'm not convinced the AI bubble exists](https://news.ycombinator.com/item?id=50418975) — Hacker News, 543 points
 - [Outlook.com is rejecting email from domains without DMARC](https://news.ycombinator.com/item?id=50416158) — Hacker News, 531 points
-- [USPS now offers official ZIP Code boundary polygons](https://news.ycombinator.com/item?id=50431058) — Hacker News, 492 points
+- [USPS now offers official ZIP Code boundary polygons](https://news.ycombinator.com/item?id=50431058) — Hacker News, 493 points
 - [Statement from Nvidia board of directors](https://news.ycombinator.com/item?id=50416801) — Hacker News, 490 points
 - [Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system](https://news.ycombinator.com/item?id=50427362) — Hacker News, 476 points
 - [Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://news.ycombinator.com/item?id=50411961) — Hacker News, 475 points

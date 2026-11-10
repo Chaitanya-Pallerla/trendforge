@@ -108,7 +108,7 @@ dashboard (`site/`), or add tests (`tests/`). See the roadmap below.
 <!-- TRENDFORGE:START -->
 ## TrendForge daily report — 2026-11-10
 
-_773 repositories and 104 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
+_775 repositories and 244 discussions analyzed from api, hackernews, reddit, search, trending-daily, trending-weekly._
 
 ### 🔥 Trending technologies
 
