@@ -1,0 +1,100 @@
+name: Daily trend update
+
+on:
+  schedule:
+    # Backup run. The primary run is scripts/daily.ps1 on a home PC with camofox-browser
+    # (residential IP + real browser, so Reddit etc. don't block it). If that already
+    # pushed today's data, this run skips collection and only redeploys.
+    - cron: "0 18 * * *"   # every day at 18:00 UTC
+  workflow_dispatch:
+    inputs:
+      no_ai:
+        description: "Skip the Claude analysis layer"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["site/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Skip if the local (camofox) run already published today
+        id: fresh
+        run: |
+          today=$(date -u +%Y-%m-%d)
+          gen=$(python3 -c "import json;print(json.load(open('site/data/latest.json'))['generated_at'][:10])" 2>/dev/null || echo none)
+          if [ "$gen" = "$today" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "Data for $today already published by the local run; skipping collection."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.fresh.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - if: steps.fresh.outputs.skip != 'true'
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        if: steps.fresh.outputs.skip != 'true'
+        run: pytest -q
+
+      - name: Collect and analyze trends
+        if: steps.fresh.outputs.skip != 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Reddit blocks most datacenter IPs; enable if you run a camofox-browser
+          # instance and set CAMOFOX_URL as a secret.
+          CAMOFOX_URL: ${{ secrets.CAMOFOX_URL }}
+          CAMOFOX_API_KEY: ${{ secrets.CAMOFOX_API_KEY }}
+        run: python -m trendforge run ${{ inputs.no_ai && '--no-ai' || '' }}
+
+      - name: Commit data and report
+        if: steps.fresh.outputs.skip != 'true'
+        run: |
+          git config user.name "trendforge-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data data reports README.md
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "data: daily update $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  deploy:
+    needs: update
+    if: always() && (needs.update.result == 'success' || needs.update.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - run: git pull --ff-only || true
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

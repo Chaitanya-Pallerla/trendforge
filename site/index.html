@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TrendForge</title>
+  <meta name="description" content="Discover what's trending. Understand what's missing. Build what's next. Daily trend intelligence for developers and students.">
+  <meta property="og:title" content="TrendForge — daily trend intelligence for developers and students">
+  <meta property="og:description" content="Trending repos, topics and discussions from GitHub, Hacker News and Reddit, updated daily, with build ideas and a student track.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23e8590c'/><path d='M9 22l5-6 4 3 5-8' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="./">
+        <span class="logo" aria-hidden="true"><svg viewBox="0 0 32 32"><rect width="32" height="32" rx="8"/><path d="M9 22l5-6 4 3 5-8"/></svg></span>
+        <span>TrendForge</span>
+      </a>
+      <p class="tagline">Discover what's trending. Understand what's missing. Build what's next.</p>
+      <nav class="top-links">
+        <a id="report-link" href="#" target="_blank" rel="noopener">Daily report</a>
+        <a id="gh-link" class="gh" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          <span>Star on GitHub</span>
+        </a>
+        <button id="theme" class="icon-btn" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="sub-head">
+      <span id="updated" class="muted small"></span>
+    </div>
+    <section class="stats" id="stats"></section>
+
+    <nav class="chips" id="chips" aria-label="Categories"></nav>
+
+    <div class="layout">
+      <aside class="side">
+        <section class="panel">
+          <h2>Trending technologies</h2>
+          <ol class="topics" id="topics"></ol>
+          <p class="muted small">Momentum combines star gains, new-repo velocity and community buzz. The change is versus 7 days ago.</p>
+        </section>
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Most discussed</h2>
+            <div class="seg" id="talk-tabs" role="tablist">
+              <button data-src="" aria-pressed="true">All</button>
+              <button data-src="hackernews" aria-pressed="false">HN</button>
+              <button data-src="reddit" aria-pressed="false">Reddit</button>
+            </div>
+          </div>
+          <ul class="talk" id="talk"></ul>
+        </section>
+      </aside>
+
+      <section class="main">
+        <div id="opportunity"></div>
+        <div id="students"></div>
+
+        <details class="filters" id="filters" open>
+          <summary>Filters <span id="active-count" class="pill" hidden></span></summary>
+          <div class="filter-grid">
+            <label class="f-search">
+              <span>Search</span>
+              <input id="q" type="search" placeholder="Name, description, topic, language…" autocomplete="off">
+            </label>
+            <label><span>Sort by</span>
+              <select id="sort">
+                <option value="score">Trend score</option>
+                <option value="gain_1d">Stars today</option>
+                <option value="gain_7d">Stars this week</option>
+                <option value="velocity">Stars per day (new repos)</option>
+                <option value="stars">Total stars</option>
+                <option value="buzz">Most discussed</option>
+                <option value="new">Newest</option>
+              </select>
+            </label>
+            <label><span>For</span>
+              <select id="aud">
+                <option value="">Everyone</option>
+                <option value="dev">Developers</option>
+                <option value="stu">Students</option>
+              </select>
+            </label>
+            <label><span>Language</span>
+              <select id="lang"><option value="">All languages</option></select>
+            </label>
+            <label><span>Min stars</span>
+              <select id="stars">
+                <option value="0">Any</option>
+                <option value="100">100+</option>
+                <option value="1000">1k+</option>
+                <option value="10000">10k+</option>
+                <option value="50000">50k+</option>
+              </select>
+            </label>
+            <label><span>Created</span>
+              <select id="age">
+                <option value="">Any time</option>
+                <option value="7">Last 7 days</option>
+                <option value="30">Last 30 days</option>
+                <option value="90">Last 3 months</option>
+                <option value="365">Last year</option>
+              </select>
+            </label>
+            <label><span>Found via</span>
+              <select id="src">
+                <option value="">Any source</option>
+                <option value="trending">GitHub Trending</option>
+                <option value="search">GitHub Search</option>
+                <option value="hackernews">Hacker News</option>
+                <option value="reddit">Reddit</option>
+              </select>
+            </label>
+            <label><span>GitHub topic</span>
+              <input id="topic" list="topic-list" placeholder="e.g. mcp, rust, education" autocomplete="off">
+              <datalist id="topic-list"></datalist>
+            </label>
+          </div>
+          <div class="toggles">
+            <label class="tog"><input type="checkbox" id="gfi"> Good first issues</label>
+            <label class="tog"><input type="checkbox" id="buzz"> Discussed on HN / Reddit</label>
+            <label class="tog"><input type="checkbox" id="hasai"> Has AI summary</label>
+            <label class="tog"><input type="checkbox" id="rising"> Gaining stars now</label>
+            <span class="spacer"></span>
+            <button id="share" class="btn small-btn" type="button">Copy link to this view</button>
+            <button id="reset" class="btn small-btn ghost" type="button">Reset</button>
+          </div>
+        </details>
+
+        <p class="muted small" id="count"></p>
+        <div class="repos" id="repos"></div>
+        <button id="more" class="btn" hidden>Show more</button>
+      </section>
+    </div>
+  </main>
+
+  <footer class="wrap foot muted small">
+    <p>Data from GitHub Trending, GitHub Search, Hacker News and Reddit, refreshed daily.
+      Collected with <a href="https://github.com/jo-inc/camofox-browser" target="_blank" rel="noopener">camofox-browser</a>.
+      Open source: <a id="foot-repo" href="#" target="_blank" rel="noopener">source code</a> ·
+      <a id="foot-issues" href="#" target="_blank" rel="noopener">suggest a feature</a> ·
+      <a id="foot-reports" href="#" target="_blank" rel="noopener">report archive</a>.</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
