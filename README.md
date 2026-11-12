@@ -106,37 +106,37 @@ dashboard (`site/`), or add tests (`tests/`). See the roadmap below.
 ## Latest
 
 <!-- TRENDFORGE:START -->
-## TrendForge daily report — 2026-11-11
+## TrendForge daily report — 2026-11-12
 
-_785 repositories and 249 discussions analyzed from api, hackernews, reddit, search, trending-daily, trending-weekly._
+_785 repositories and 116 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
 
 ### 🔥 Trending technologies
 
 | # | Topic | Momentum | Change (7d) | Leading repos |
 |---|---|---|---|---|
-| 1 | **AI Agents** | 36.8k | new | [security-audit-skill](https://github.com/cloudflare/security-audit-skill), [skills](https://github.com/mattpocock/skills), [agent-desktop](https://github.com/vercel-labs/agent-desktop) |
-| 2 | **LLM Apps & RAG** | 20.1k | new | [auto-ontology](https://github.com/NVIDIA/auto-ontology), [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) |
-| 3 | **Developer Tools** | 19.2k | new | [agent-desktop](https://github.com/vercel-labs/agent-desktop), [GestaltX](https://github.com/huamidev/GestaltX), [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) |
-| 4 | **AI Coding Tools** | 17.3k | new | [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
-| 5 | **Web & App Frameworks** | 17.1k | new | [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [astryx](https://github.com/meta/astryx), [auto-ontology](https://github.com/NVIDIA/auto-ontology) |
-| 6 | **Infra, Self-hosting & Security** | 14.5k | new | [security-audit-skill](https://github.com/cloudflare/security-audit-skill), [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [sherlock](https://github.com/sherlock-project/sherlock) |
-| 7 | **MCP Tooling** | 11.2k | new | [agent-desktop](https://github.com/vercel-labs/agent-desktop), [Scrapling](https://github.com/D4Vinci/Scrapling), [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) |
-| 8 | **Browser Agents** | 5.6k | new | [Scrapling](https://github.com/D4Vinci/Scrapling), [agent-browser](https://github.com/vercel-labs/agent-browser), [OpenBot](https://github.com/CopilotKit/OpenBot) |
+| 1 | **AI Agents** | 29.7k | new | [security-audit-skill](https://github.com/cloudflare/security-audit-skill), [skills](https://github.com/mattpocock/skills), [astryx](https://github.com/meta/astryx) |
+| 2 | **Developer Tools** | 15.7k | new | [agent-desktop](https://github.com/vercel-labs/agent-desktop), [agent-browser](https://github.com/vercel-labs/agent-browser), [sherlock](https://github.com/sherlock-project/sherlock) |
+| 3 | **AI Coding Tools** | 13.2k | new | [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [cleanyourtv](https://github.com/Gathin23/cleanyourtv), [modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) |
+| 4 | **Web & App Frameworks** | 13.0k | new | [astryx](https://github.com/meta/astryx), [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [auto-ontology](https://github.com/NVIDIA/auto-ontology) |
+| 5 | **LLM Apps & RAG** | 12.4k | new | [auto-ontology](https://github.com/NVIDIA/auto-ontology), [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) |
+| 6 | **Infra, Self-hosting & Security** | 12.1k | new | [security-audit-skill](https://github.com/cloudflare/security-audit-skill), [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [sherlock](https://github.com/sherlock-project/sherlock) |
+| 7 | **MCP Tooling** | 7.5k | new | [agent-desktop](https://github.com/vercel-labs/agent-desktop), [Scrapling](https://github.com/D4Vinci/Scrapling), [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) |
+| 8 | **Browser Agents** | 4.7k | new | [agent-browser](https://github.com/vercel-labs/agent-browser), [Scrapling](https://github.com/D4Vinci/Scrapling), [nod](https://github.com/n8n-io/nod) |
 
 ### 🚀 Top repositories today
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 69.9k | +1.2k today | Skill that lets a coding agent run multi-phase security audits and output machine-readable findings. |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 321.6k | +1.2k today | Matt Pocock's personal set of agent skills for engineering work. |
-| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 27.8k | +2.3k today | Rust project for understanding how software works and building your own. |
-| [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 21.8k | +716 today | Rust CLI that lets AI agents use desktop apps through the OS accessibility tree. |
-| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 21.1k | +637 today | Open-source alternative to Grok Bot that gives bots a virtual machine to use. |
-| [meta/astryx](https://github.com/meta/astryx) | 24.3k | +2.8k today | Open-source design system that can be fully customized and is built to work with agents. |
-| [huamidev/GestaltX](https://github.com/huamidev/GestaltX) | 5.9k | +1.8k today | MobileGestalt editor for iOS 27.x with region-code tweaks, device presets and backups. |
-| [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | 11.7k | +379 today | Python framework for building graph-based semantic reasoning layers over data. |
-| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 101.5k | +558 today | Python web scraping framework that handles everything from single requests to full crawls. |
-| [anthropics/skills](https://github.com/anthropics/skills) | 192.9k | +1.1k today | Anthropic's public repository of Agent Skills for Claude. |
+| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 70.4k | +431 today | Skill that lets a coding agent run multi-phase security audits and output machine-readable findings. |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 322.0k | +436 today | Matt Pocock's personal set of agent skills for engineering work. |
+| [meta/astryx](https://github.com/meta/astryx) | 24.9k | +2.8k today | Open-source design system that can be fully customized and is built to work with agents. |
+| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 21.2k | +168 today | Open-source alternative to Grok Bot that gives bots a virtual machine to use. |
+| [anthropics/skills](https://github.com/anthropics/skills) | 193.1k | +1.0k today | Anthropic's public repository of Agent Skills for Claude. |
+| [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 22.1k | +238 today | Rust CLI that lets AI agents use desktop apps through the OS accessibility tree. |
+| [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | 11.8k | +133 today | Python framework for building graph-based semantic reasoning layers over data. |
+| [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 49.9k | +708 today | Rust CLI that lets AI agents drive a browser through the accessibility tree. |
+| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 101.6k | +156 today | Python web scraping framework that handles everything from single requests to full crawls. |
+| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 28.4k | +525 today | Rust project for understanding how software works and building your own. |
 
 ### 🎓 For students
 
@@ -144,14 +144,14 @@ _785 repositories and 249 discussions analyzed from api, hackernews, reddit, sea
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459.0k | +111 today | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 401.5k | +60 today | :books: Freely available programming books |
-| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 371.8k | +80 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
-| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 364.2k | +71 today | A complete computer science study plan to become a software engineer. |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 289.5k | +64 today | Curated list of project-based tutorials |
-| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 226.0k | +30 today | All Algorithms implemented in Python |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459.0k | +19 today | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 401.4k | +-67 today | :books: Freely available programming books |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 371.8k | +33 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
+| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 364.3k | +24 today | A complete computer science study plan to become a software engineer. |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 289.6k | +36 today | Curated list of project-based tutorials |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 226.0k | +15 today | All Algorithms implemented in Python |
 | [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) | 184.8k | +1 today | A book series (2 published editions) on the JS language. |
-| [krahets/hello-algo](https://github.com/krahets/hello-algo) | 132.2k | +72 today | 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现 |
+| [krahets/hello-algo](https://github.com/krahets/hello-algo) | 132.2k | +75 today | 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现 |
 
 **Make your first open-source contribution** (active projects with many `good first issue`s)
 
@@ -160,7 +160,7 @@ _785 repositories and 249 discussions analyzed from api, hackernews, reddit, sea
 - [vercel/next.js](https://github.com/vercel/next.js/contribute) — 143.5k★ · JavaScript
 - [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl/contribute) — 141.5k★ · Python
 - [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/contribute) — 135.5k★ · TypeScript
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 134.1k★ · C++
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 134.2k★ · C++
 
 ### 💡 Build opportunities
 
@@ -173,16 +173,6 @@ Growth is going to tools that give agents new abilities. vercel-labs/agent-deskt
 - **Skill Bench** _(intermediate 🎓)_ — A harness that runs the same tasks with and without a skill and reports the difference in results. Skill authors and teams choosing skills would use it.
 - **Skill Lockfile** _(beginner 🎓)_ — A CLI that installs skills from several repos, pins their versions and flags overlapping or conflicting instructions. Developers mixing skill packs would use it.
 - **Agent Action Replay** _(advanced)_ — A recorder that captures accessibility-tree actions from desktop and browser agents and lets users replay them step by step. Teams auditing computer-use agents would use it.
-
-#### LLM Apps & RAG
-
-Users want output that doesn't look AI-generated and agents that remember context. hallmark (+5987) and unslop target generic AI design, and claude-mem (+5130) handles memory. Interest in structured reasoning over data also appears in auto-ontology (+10159).
-
-**Gaps:** No objective way to measure whether a design looks AI-generated; Memory plugins don't let users inspect or edit what was stored; Few ways to connect ontology layers to existing RAG stacks
-
-- **Slop Score** _(intermediate 🎓)_ — A tool that screenshots a UI and scores it on common AI-generated design patterns, so users can compare results before and after applying hallmark or unslop. Designers and agent users would use it.
-- **Memory Inspector** _(beginner 🎓)_ — A local UI for browsing, editing and deleting the compressed sessions stored by claude-mem-style plugins. Heavy agent users would use it.
-- **Ontology-to-RAG Adapter** _(advanced)_ — A library that adds results from an auto-ontology graph to vector search retrieval. RAG builders would use it.
 
 #### Developer Tools
 
@@ -203,6 +193,16 @@ Coding agents are being extended with design skills (hallmark +5987), memory (cl
 - **Model Swap Benchmarks** _(intermediate 🎓)_ — A runner that sends the same coding task to the same agent with different backend models and compares the diffs, test results and cost. Developers using magpie-style routing would use it.
 - **Agent Approval Inbox** _(beginner 🎓)_ — A mobile or web inbox that collects decision cards from background coding agents in one place. Solo developers running agent-autoloop would use it.
 - **Cross-Agent Skill Sync** _(beginner 🎓)_ — A converter that keeps skills and rules files in sync across Claude Code, Cursor and Codex. Teams using more than one agent would use it.
+
+#### Web & App Frameworks
+
+Web frameworks are being redesigned with agents as users. meta/astryx (+3278) is a design system built for agents, and Scrapling (+8226) is a scraping framework. Open alternatives to Grok Bot are also rising, such as OpenMausBot (+1587) and rakazo (+143).
+
+**Gaps:** No way to check whether agent-generated UI actually follows a design system; Few templates for web front ends that let people supervise sandboxed bots; Few mobile-first interfaces for controlling agents
+
+- **Design System Linter for Agents** _(intermediate 🎓)_ — A CI check that flags components and tokens in agent-written UI that don't come from astryx or another chosen design system. Frontend teams using coding agents would use it.
+- **Sandbox Bot Console Kit** _(intermediate 🎓)_ — A React starter app that streams the screen, logs and approval prompts from a bot's VM or sandbox. Builders of OpenMausBot or rakazo deployments would use it.
+- **Source-to-Digest Starter** _(beginner 🎓)_ — A small template that uses Scrapling to pull from configured sources and publishes a static daily digest site. Niche communities and students would use it.
 
 <!-- TRENDFORGE:END -->
 
