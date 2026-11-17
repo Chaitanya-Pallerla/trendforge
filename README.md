@@ -106,37 +106,37 @@ dashboard (`site/`), or add tests (`tests/`). See the roadmap below.
 ## Latest
 
 <!-- TRENDFORGE:START -->
-## TrendForge daily report — 2026-11-15
+## TrendForge daily report — 2026-11-17
 
-_750 repositories and 89 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
+_753 repositories and 105 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
 
 ### 🔥 Trending technologies
 
 | # | Topic | Momentum | Change (7d) | Leading repos |
 |---|---|---|---|---|
-| 1 | **AI Agents** | 33.4k | new | [astryx](https://github.com/meta/astryx), [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [OpenMausBot](https://github.com/milind-soni/OpenMausBot) |
-| 2 | **LLM Apps & RAG** | 27.1k | new | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) |
-| 3 | **AI Coding Tools** | 26.1k | new | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) |
-| 4 | **Developer Tools** | 25.0k | new | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [sherlock](https://github.com/sherlock-project/sherlock), [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) |
-| 5 | **Web & App Frameworks** | 20.0k | new | [astryx](https://github.com/meta/astryx), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [OpenMausBot](https://github.com/milind-soni/OpenMausBot) |
-| 6 | **Infra, Self-hosting & Security** | 13.9k | new | [sherlock](https://github.com/sherlock-project/sherlock), [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
-| 7 | **MCP Tooling** | 13.0k | new | [blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon), [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp), [solidcraft](https://github.com/tangency-labs/solidcraft) |
-| 8 | **Local Inference** | 4.6k | new | [blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon), [Mika](https://github.com/wangzan101/Mika), [bla](https://github.com/qybaihe/bla) |
+| 1 | **AI Agents** | 39.0k | +24% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [astryx](https://github.com/meta/astryx), [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) |
+| 2 | **LLM Apps & RAG** | 32.4k | +150% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [unslop](https://github.com/heydamir/unslop) |
+| 3 | **AI Coding Tools** | 30.7k | +144% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src), [cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
+| 4 | **Developer Tools** | 23.0k | +73% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [sherlock](https://github.com/sherlock-project/sherlock), [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) |
+| 5 | **Web & App Frameworks** | 13.7k | -4% | [astryx](https://github.com/meta/astryx), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [ag-ui](https://github.com/ag-ui-protocol/ag-ui) |
+| 6 | **Infra, Self-hosting & Security** | 13.3k | +17% | [kiri](https://github.com/libracoder/kiri), [sherlock](https://github.com/sherlock-project/sherlock), [cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
+| 7 | **MCP Tooling** | 11.5k | +30% | [blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill), [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
+| 8 | **Local Inference** | 5.9k | +84% | [blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon), [Mika](https://github.com/wangzan101/Mika), [bla](https://github.com/qybaihe/bla) |
 
 ### 🚀 Top repositories today
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [meta/astryx](https://github.com/meta/astryx) | 28.8k | +713 today | Open-source design system that can be fully customized and is built to work with agents. |
-| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 33.7k | +970 today | Rust project for understanding how software works and building your own. |
-| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 75.7k | +1.4k today | dsh plugin that claims free, unlimited access to frontier models with no API key. |
-| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 112.4k | +707 today | Python CLI that searches social networks for accounts matching a username. |
-| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 23.7k | +1.0k today | An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer. |
-| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 10.3k | +775 today | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux |
-| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 23.3k | +585 today | Open-source alternative to Grok Bot that gives bots a virtual machine to use. |
-| [anthropics/skills](https://github.com/anthropics/skills) | 195.3k | +739 today | Anthropic's public repository of Agent Skills for Claude. |
-| [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | 19.7k | +582 today | Open-source plugin for designing and reviewing software with agents |
-| [heydamir/unslop](https://github.com/heydamir/unslop) | 16.7k | +755 today | A Claude skill that redesigns generic, AI-looking UI into a more polished interface. |
+| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 77.4k | +1.6k today | dsh plugin that claims free, unlimited access to frontier models with no API key. |
+| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 34.8k | +1.2k today | Rust project for understanding how software works and building your own. |
+| [meta/astryx](https://github.com/meta/astryx) | 29.6k | +825 today | Open-source design system that can be fully customized and is built to work with agents. |
+| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 24.8k | +1.1k today | An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer. |
+| [libracoder/kiri](https://github.com/libracoder/kiri) | 9.0k | +2.8k today | A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative |
+| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 8.0k | +1.2k today | Keep your coding agent up to date with the latest web best practices |
+| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 11.2k | +864 today | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux |
+| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 113.2k | +751 today | Python CLI that searches social networks for accounts matching a username. |
+| [anthropics/skills](https://github.com/anthropics/skills) | 196.1k | +755 today | Anthropic's public repository of Agent Skills for Claude. |
+| [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 58.7k | +439 today | Tool that removes bloatware from Android or Google TV over Wi-Fi and adds an Apple TV-style home screen. |
 
 ### 🎓 For students
 
@@ -144,23 +144,23 @@ _750 repositories and 89 discussions analyzed from api, hackernews, search, tren
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 82.8k | +195 today | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-frien… |
-| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 8.1k | +109 today | 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 |
-| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 2.9k | +89 today | Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, … |
-| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 87.0k | +49 today | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
-| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.3k | +54 today | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate va… |
-| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372.1k | +70 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 289.8k | +49 today | Curated list of project-based tutorials |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459.2k | +43 today | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 83.1k | +338 today | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-frien… |
+| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 8.3k | +153 today | 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 |
+| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 3.0k | +101 today | Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, … |
+| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 87.2k | +124 today | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.3k | +61 today | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate va… |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372.2k | +95 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 289.9k | +63 today | Curated list of project-based tutorials |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459.2k | +51 today | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
 
 **Make your first open-source contribution** (active projects with many `good first issue`s)
 
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 135.2k★ · C++
-- [nexu-io/open-design](https://github.com/nexu-io/open-design/contribute) — 107.8k★ · TypeScript
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk/contribute) — 86.7k★ · Rust
-- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands/contribute) — 93.5k★ · TypeScript
-- [langgenius/dify](https://github.com/langgenius/dify/contribute) — 161.2k★ · Python
-- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/contribute) — 135.7k★ · TypeScript
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 135.4k★ · C++
+- [nexu-io/open-design](https://github.com/nexu-io/open-design/contribute) — 107.9k★ · TypeScript
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk/contribute) — 86.8k★ · Rust
+- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands/contribute) — 93.6k★ · TypeScript
+- [vllm-project/vllm](https://github.com/vllm-project/vllm/contribute) — 97.1k★ · Python
+- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/contribute) — 135.8k★ · TypeScript
 
 ### 💡 Build opportunities
 
