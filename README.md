@@ -106,37 +106,37 @@ dashboard (`site/`), or add tests (`tests/`). See the roadmap below.
 ## Latest
 
 <!-- TRENDFORGE:START -->
-## TrendForge daily report — 2026-11-17
+## TrendForge daily report — 2026-11-18
 
-_753 repositories and 105 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
+_762 repositories and 120 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
 
 ### 🔥 Trending technologies
 
 | # | Topic | Momentum | Change (7d) | Leading repos |
 |---|---|---|---|---|
-| 1 | **AI Agents** | 39.0k | +24% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [astryx](https://github.com/meta/astryx), [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) |
-| 2 | **LLM Apps & RAG** | 32.4k | +150% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [unslop](https://github.com/heydamir/unslop) |
-| 3 | **AI Coding Tools** | 30.7k | +144% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src), [cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
-| 4 | **Developer Tools** | 23.0k | +73% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [sherlock](https://github.com/sherlock-project/sherlock), [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) |
-| 5 | **Web & App Frameworks** | 13.7k | -4% | [astryx](https://github.com/meta/astryx), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [ag-ui](https://github.com/ag-ui-protocol/ag-ui) |
-| 6 | **Infra, Self-hosting & Security** | 13.3k | +17% | [kiri](https://github.com/libracoder/kiri), [sherlock](https://github.com/sherlock-project/sherlock), [cleanyourtv](https://github.com/Gathin23/cleanyourtv) |
-| 7 | **MCP Tooling** | 11.5k | +30% | [blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill), [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
-| 8 | **Local Inference** | 5.9k | +84% | [blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon), [Mika](https://github.com/wangzan101/Mika), [bla](https://github.com/qybaihe/bla) |
+| 1 | **AI Agents** | 40.6k | +10% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [univer](https://github.com/dream-num/univer), [astryx](https://github.com/meta/astryx) |
+| 2 | **AI Coding Tools** | 34.2k | +97% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) |
+| 3 | **LLM Apps & RAG** | 33.6k | +67% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) |
+| 4 | **Developer Tools** | 21.2k | +10% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [photocraft](https://github.com/storytold/photocraft), [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) |
+| 5 | **Web & App Frameworks** | 18.6k | +8% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [astryx](https://github.com/meta/astryx), [superpowers](https://github.com/obra/superpowers) |
+| 6 | **Infra, Self-hosting & Security** | 14.4k | -0% | [cleanyourtv](https://github.com/Gathin23/cleanyourtv), [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) |
+| 7 | **MCP Tooling** | 12.4k | +11% | [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill), [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp), [SoduWork](https://github.com/mdiri-ai/SoduWork) |
+| 8 | **Browser Agents** | 4.7k | -16% | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp), [agent-browser](https://github.com/vercel-labs/agent-browser), [nod](https://github.com/n8n-io/nod) |
 
 ### 🚀 Top repositories today
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 77.4k | +1.6k today | dsh plugin that claims free, unlimited access to frontier models with no API key. |
-| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 34.8k | +1.2k today | Rust project for understanding how software works and building your own. |
-| [meta/astryx](https://github.com/meta/astryx) | 29.6k | +825 today | Open-source design system that can be fully customized and is built to work with agents. |
-| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 24.8k | +1.1k today | An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer. |
-| [libracoder/kiri](https://github.com/libracoder/kiri) | 9.0k | +2.8k today | A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative |
-| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 8.0k | +1.2k today | Keep your coding agent up to date with the latest web best practices |
-| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 11.2k | +864 today | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux |
-| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 113.2k | +751 today | Python CLI that searches social networks for accounts matching a username. |
-| [anthropics/skills](https://github.com/anthropics/skills) | 196.1k | +755 today | Anthropic's public repository of Agent Skills for Claude. |
-| [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 58.7k | +439 today | Tool that removes bloatware from Android or Google TV over Wi-Fi and adds an Apple TV-style home screen. |
+| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 78.5k | +1.2k today | dsh plugin that claims free, unlimited access to frontier models with no API key. |
+| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 35.7k | +895 today | Rust project for understanding how software works and building your own. |
+| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 26.0k | +1.2k today | An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer. |
+| [dream-num/univer](https://github.com/dream-num/univer) | 28.9k | +1.8k today | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for peo… |
+| [meta/astryx](https://github.com/meta/astryx) | 30.1k | +520 today | Open-source design system that can be fully customized and is built to work with agents. |
+| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 12.1k | +894 today | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux |
+| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 8.4k | +437 today | Keep your coding agent up to date with the latest web best practices |
+| [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 7.7k | +1.3k today | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Cod… |
+| [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 59.0k | +336 today | Tool that removes bloatware from Android or Google TV over Wi-Fi and adds an Apple TV-style home screen. |
+| [obra/superpowers](https://github.com/obra/superpowers) | 319.3k | +1.9k today | An agentic skills framework & software development methodology that works. |
 
 ### 🎓 For students
 
@@ -144,23 +144,23 @@ _753 repositories and 105 discussions analyzed from api, hackernews, search, tre
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 83.1k | +338 today | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-frien… |
-| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 8.3k | +153 today | 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 |
-| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 3.0k | +101 today | Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, … |
-| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 87.2k | +124 today | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
-| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.3k | +61 today | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate va… |
-| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372.2k | +95 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 289.9k | +63 today | Curated list of project-based tutorials |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459.2k | +51 today | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 83.4k | +247 today | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-frien… |
+| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 8.4k | +124 today | 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 |
+| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 3.1k | +59 today | Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, … |
+| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 87.2k | +75 today | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372.2k | +68 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.4k | +57 today | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate va… |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 289.9k | +72 today | Curated list of project-based tutorials |
+| [Xin-YuXiao/Awesome-AI-for-Astronomy](https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy) | 332 | +49 today | A curated list of papers for AI in Astronomy & Astrophysics. |
 
 **Make your first open-source contribution** (active projects with many `good first issue`s)
 
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 135.4k★ · C++
-- [nexu-io/open-design](https://github.com/nexu-io/open-design/contribute) — 107.9k★ · TypeScript
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk/contribute) — 86.8k★ · Rust
-- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands/contribute) — 93.6k★ · TypeScript
-- [vllm-project/vllm](https://github.com/vllm-project/vllm/contribute) — 97.1k★ · Python
-- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/contribute) — 135.8k★ · TypeScript
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv/contribute) — 59.0k★ · Python
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 135.7k★ · C++
+- [nexu-io/open-design](https://github.com/nexu-io/open-design/contribute) — 108.1k★ · TypeScript
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk/contribute) — 86.9k★ · Rust
+- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands/contribute) — 93.7k★ · TypeScript
+- [pytorch/pytorch](https://github.com/pytorch/pytorch/contribute) — 105.8k★ · Python
 
 ### 💡 Build opportunities
 
@@ -174,16 +174,6 @@ Growth is going to tools that give agents new abilities. vercel-labs/agent-deskt
 - **Skill Lockfile** _(beginner 🎓)_ — A CLI that installs skills from several repos, pins their versions and flags overlapping or conflicting instructions. Developers mixing skill packs would use it.
 - **Agent Action Replay** _(advanced)_ — A recorder that captures accessibility-tree actions from desktop and browser agents and lets users replay them step by step. Teams auditing computer-use agents would use it.
 
-#### LLM Apps & RAG
-
-Users want output that doesn't look AI-generated and agents that remember context. hallmark (+5987) and unslop target generic AI design, and claude-mem (+5130) handles memory. Interest in structured reasoning over data also appears in auto-ontology (+10159).
-
-**Gaps:** No objective way to measure whether a design looks AI-generated; Memory plugins don't let users inspect or edit what was stored; Few ways to connect ontology layers to existing RAG stacks
-
-- **Slop Score** _(intermediate 🎓)_ — A tool that screenshots a UI and scores it on common AI-generated design patterns, so users can compare results before and after applying hallmark or unslop. Designers and agent users would use it.
-- **Memory Inspector** _(beginner 🎓)_ — A local UI for browsing, editing and deleting the compressed sessions stored by claude-mem-style plugins. Heavy agent users would use it.
-- **Ontology-to-RAG Adapter** _(advanced)_ — A library that adds results from an auto-ontology graph to vector search retrieval. RAG builders would use it.
-
 #### AI Coding Tools
 
 Coding agents are being extended with design skills (hallmark +5987), memory (claude-mem +5130) and workflow tools like worktrunk (+2395) and pr-agent (+1822). magpie (33214★) shows developers want to switch the model behind each agent.
@@ -193,6 +183,16 @@ Coding agents are being extended with design skills (hallmark +5987), memory (cl
 - **Model Swap Benchmarks** _(intermediate 🎓)_ — A runner that sends the same coding task to the same agent with different backend models and compares the diffs, test results and cost. Developers using magpie-style routing would use it.
 - **Agent Approval Inbox** _(beginner 🎓)_ — A mobile or web inbox that collects decision cards from background coding agents in one place. Solo developers running agent-autoloop would use it.
 - **Cross-Agent Skill Sync** _(beginner 🎓)_ — A converter that keeps skills and rules files in sync across Claude Code, Cursor and Codex. Teams using more than one agent would use it.
+
+#### LLM Apps & RAG
+
+Users want output that doesn't look AI-generated and agents that remember context. hallmark (+5987) and unslop target generic AI design, and claude-mem (+5130) handles memory. Interest in structured reasoning over data also appears in auto-ontology (+10159).
+
+**Gaps:** No objective way to measure whether a design looks AI-generated; Memory plugins don't let users inspect or edit what was stored; Few ways to connect ontology layers to existing RAG stacks
+
+- **Slop Score** _(intermediate 🎓)_ — A tool that screenshots a UI and scores it on common AI-generated design patterns, so users can compare results before and after applying hallmark or unslop. Designers and agent users would use it.
+- **Memory Inspector** _(beginner 🎓)_ — A local UI for browsing, editing and deleting the compressed sessions stored by claude-mem-style plugins. Heavy agent users would use it.
+- **Ontology-to-RAG Adapter** _(advanced)_ — A library that adds results from an auto-ontology graph to vector search retrieval. RAG builders would use it.
 
 #### Developer Tools
 
