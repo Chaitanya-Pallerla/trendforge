@@ -1,49 +1,49 @@
-# TrendForge daily report — 2026-11-18
+# TrendForge daily report — 2026-11-19
 
-_762 repositories and 120 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
+_758 repositories and 107 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
 
 ### 🔥 Trending technologies
 
 | # | Topic | Momentum | Change (7d) | Leading repos |
 |---|---|---|---|---|
-| 1 | **AI Agents** | 40.6k | +10% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [univer](https://github.com/dream-num/univer), [astryx](https://github.com/meta/astryx) |
-| 2 | **AI Coding Tools** | 34.2k | +97% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) |
-| 3 | **LLM Apps & RAG** | 33.6k | +67% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) |
-| 4 | **Developer Tools** | 21.2k | +10% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [photocraft](https://github.com/storytold/photocraft), [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) |
-| 5 | **Web & App Frameworks** | 18.6k | +8% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [astryx](https://github.com/meta/astryx), [superpowers](https://github.com/obra/superpowers) |
-| 6 | **Infra, Self-hosting & Security** | 14.4k | -0% | [cleanyourtv](https://github.com/Gathin23/cleanyourtv), [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) |
-| 7 | **MCP Tooling** | 12.4k | +11% | [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill), [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp), [SoduWork](https://github.com/mdiri-ai/SoduWork) |
-| 8 | **Browser Agents** | 4.7k | -16% | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp), [agent-browser](https://github.com/vercel-labs/agent-browser), [nod](https://github.com/n8n-io/nod) |
+| 1 | **AI Agents** | 37.5k | +26% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [univer](https://github.com/dream-num/univer), [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) |
+| 2 | **AI Coding Tools** | 36.5k | +178% | [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [rust-anything](https://github.com/erkamyaman/rust-anything) |
+| 3 | **LLM Apps & RAG** | 35.4k | +186% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) |
+| 4 | **Developer Tools** | 20.0k | +27% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [rust-anything](https://github.com/erkamyaman/rust-anything), [photocraft](https://github.com/storytold/photocraft) |
+| 5 | **Web & App Frameworks** | 18.3k | +41% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [rust-anything](https://github.com/erkamyaman/rust-anything), [astryx](https://github.com/meta/astryx) |
+| 6 | **Infra, Self-hosting & Security** | 15.6k | +29% | [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter), [cleanyourtv](https://github.com/Gathin23/cleanyourtv), [SoduWork](https://github.com/mdiri-ai/SoduWork) |
+| 7 | **MCP Tooling** | 15.1k | +102% | [rust-anything](https://github.com/erkamyaman/rust-anything), [SoduWork](https://github.com/mdiri-ai/SoduWork), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) |
+| 8 | **ML & Research Code** | 5.0k | +483% | [paper-orchestra](https://github.com/google-research/paper-orchestra), [heretic](https://github.com/p-e-w/heretic), [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) |
 
 ### 🚀 Top repositories today
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 78.5k | +1.2k today | dsh plugin that claims free, unlimited access to frontier models with no API key. |
-| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 35.7k | +895 today | Rust project for understanding how software works and building your own. |
-| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 26.0k | +1.2k today | An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer. |
-| [dream-num/univer](https://github.com/dream-num/univer) | 28.9k | +1.8k today | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for peo… |
-| [meta/astryx](https://github.com/meta/astryx) | 30.1k | +520 today | Open-source design system that can be fully customized and is built to work with agents. |
-| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 12.1k | +894 today | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux |
-| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 8.4k | +437 today | Keep your coding agent up to date with the latest web best practices |
-| [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 7.7k | +1.3k today | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Cod… |
-| [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 59.0k | +336 today | Tool that removes bloatware from Android or Google TV over Wi-Fi and adds an Apple TV-style home screen. |
-| [obra/superpowers](https://github.com/obra/superpowers) | 319.3k | +1.9k today | An agentic skills framework & software development methodology that works. |
-| [anthropics/skills](https://github.com/anthropics/skills) | 196.7k | +654 today | Anthropic's public repository of Agent Skills for Claude. |
-| [heydamir/unslop](https://github.com/heydamir/unslop) | 17.8k | +471 today | A Claude skill that redesigns generic, AI-looking UI into a more polished interface. |
-| [yetone/magpie](https://github.com/yetone/magpie) | 38.1k | +516 today | Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. |
-| [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 24.8k | +640 today | Open-source alternative to Grok Bot that gives bots a virtual machine to use. |
-| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 53.7k | +763 today | Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, pre… |
-| [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) | 10.3k | +565 today | Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向… |
-| [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | 9.3k | +1.0k today | A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curat… |
-| [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 17.9k | +560 today | A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made … |
-| [libracoder/kiri](https://github.com/libracoder/kiri) | 10.1k | +1.1k today | A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative |
-| [storytold/photocraft](https://github.com/storytold/photocraft) | 80.1k | +266 today | Open-source photo editor written from scratch in pure Rust. |
-| [we-promise/sure](https://github.com/we-promise/sure) | 16.3k | +253 today | The personal finance app for everyone (by everyone) |
-| [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) | 6.9k | +703 today | Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading str… |
-| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | 20.0k | +1.4k today | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. |
-| [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | 13.1k | +691 today | The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedba… |
-| [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | 20.8k | +406 today | Open-source plugin for designing and reviewing software with agents |
+| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 37.0k | +1.3k today | Rust project for understanding how software works and building your own. |
+| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 79.8k | +1.2k today | dsh plugin that claims free, unlimited access to frontier models with no API key. |
+| [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | 11.3k | +2.3k today | A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curat… |
+| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 27.2k | +1.1k today | An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer. |
+| [dream-num/univer](https://github.com/dream-num/univer) | 29.9k | +1.2k today | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for peo… |
+| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 13.0k | +924 today | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux |
+| [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | 3.3k | +2.0k today | Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers a… |
+| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 8.8k | +380 today | Keep your coding agent up to date with the latest web best practices |
+| [krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) | 3.9k | +1.3k today | Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendo… |
+| [meta/astryx](https://github.com/meta/astryx) | 30.6k | +418 today | Open-source design system that can be fully customized and is built to work with agents. |
+| [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 59.3k | +294 today | Tool that removes bloatware from Android or Google TV over Wi-Fi and adds an Apple TV-style home screen. |
+| [heydamir/unslop](https://github.com/heydamir/unslop) | 18.3k | +510 today | A Claude skill that redesigns generic, AI-looking UI into a more polished interface. |
+| [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) | 2.9k | +1.2k today | The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted. |
+| [yetone/magpie](https://github.com/yetone/magpie) | 38.6k | +505 today | Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar. |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 70.0k | +1.1k today | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
+| [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) | 10.7k | +413 today | Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向… |
+| [anthropics/skills](https://github.com/anthropics/skills) | 197.2k | +468 today | Anthropic's public repository of Agent Skills for Claude. |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 54.2k | +447 today | Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, pre… |
+| [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra) | 4.3k | +1.5k today | PaperOrchestra is a multi-agent framework for automated AI research paper writing. |
+| [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 18.3k | +482 today | A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made … |
+| [storytold/photocraft](https://github.com/storytold/photocraft) | 80.3k | +198 today | Open-source photo editor written from scratch in pure Rust. |
+| [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | 21.1k | +340 today | Open-source plugin for designing and reviewing software with agents |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | 20.4k | +513 today | AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications. |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | 65.2k | +1.2k today | Control surface for coding agents, with mobile, web and desktop apps. |
+| [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | 13.4k | +392 today | The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedba… |
 
 ### 🎓 For students
 
@@ -51,36 +51,36 @@ _762 repositories and 120 discussions analyzed from api, hackernews, search, tre
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 83.4k | +247 today | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-frien… |
-| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 8.4k | +124 today | 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 |
-| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 3.1k | +59 today | Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, … |
-| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 87.2k | +75 today | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
-| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372.2k | +68 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
-| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.4k | +57 today | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate va… |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 289.9k | +72 today | Curated list of project-based tutorials |
-| [Xin-YuXiao/Awesome-AI-for-Astronomy](https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy) | 332 | +49 today | A curated list of papers for AI in Astronomy & Astrophysics. |
-| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 80.5k | +58 today | Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1 |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459.3k | +37 today | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 401.8k | +60 today | :books: Freely available programming books |
-| [byoungd/up](https://github.com/byoungd/up) | 70.7k | +35 today | 韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：AI、学习 、创业、财富、爱情与人生 |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 83.6k | +194 today | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-frien… |
+| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 8.5k | +92 today | 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 |
+| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 87.3k | +90 today | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
+| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 3.2k | +90 today | Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, … |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372.3k | +74 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.4k | +42 today | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate va… |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 290.0k | +51 today | Curated list of project-based tutorials |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 401.8k | +73 today | :books: Freely available programming books |
+| [Xin-YuXiao/Awesome-AI-for-Astronomy](https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy) | 382 | +50 today | A curated list of papers for AI in Astronomy & Astrophysics. |
+| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 80.6k | +53 today | Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1 |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 459.3k | +36 today | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. |
+| [byoungd/up](https://github.com/byoungd/up) | 70.7k | +32 today | 韩先凯的人生进阶指南 AI时代 中英双语终身学习指南：AI、学习 、创业、财富、爱情与人生 |
 | [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | 364.5k | +34 today | A complete computer science study plan to become a software engineer. |
-| [opf/openproject](https://github.com/opf/openproject) | 17.5k | +33 today | OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alterna… |
-| [krahets/hello-algo](https://github.com/krahets/hello-algo) | 132.4k | +34 today | 《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现 |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 226.3k | +66 today | All Algorithms implemented in Python |
+| [opf/openproject](https://github.com/opf/openproject) | 17.5k | +44 today | OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alterna… |
 
 **Make your first open-source contribution** (active projects with many `good first issue`s)
 
-- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv/contribute) — 59.0k★ · Python
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 135.7k★ · C++
-- [nexu-io/open-design](https://github.com/nexu-io/open-design/contribute) — 108.1k★ · TypeScript
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk/contribute) — 86.9k★ · Rust
-- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands/contribute) — 93.7k★ · TypeScript
-- [pytorch/pytorch](https://github.com/pytorch/pytorch/contribute) — 105.8k★ · Python
-- [microsoft/vscode](https://github.com/microsoft/vscode/contribute) — 195.7k★ · TypeScript
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv/contribute) — 59.3k★ · Python
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 135.6k★ · C++
+- [nexu-io/open-design](https://github.com/nexu-io/open-design/contribute) — 108.3k★ · TypeScript
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk/contribute) — 87.1k★ · Rust
+- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands/contribute) — 93.8k★ · TypeScript
+- [vllm-project/vllm](https://github.com/vllm-project/vllm/contribute) — 97.2k★ · Python
 - [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw/contribute) — 135.9k★ · TypeScript
-- [vllm-project/vllm](https://github.com/vllm-project/vllm/contribute) — 97.1k★ · Python
-- [vercel/next.js](https://github.com/vercel/next.js/contribute) — 143.7k★ · JavaScript
-- [elastic/elasticsearch](https://github.com/elastic/elasticsearch/contribute) — 78.8k★ · Java
+- [microsoft/vscode](https://github.com/microsoft/vscode/contribute) — 195.6k★ · TypeScript
+- [pytorch/pytorch](https://github.com/pytorch/pytorch/contribute) — 105.7k★ · Python
 - [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp/contribute) — 55.3k★ · C++
+- [vercel/next.js](https://github.com/vercel/next.js/contribute) — 143.7k★ · JavaScript
+- [grafana/grafana](https://github.com/grafana/grafana/contribute) — 78.0k★ · TypeScript
 
 ### 💡 Build opportunities
 
@@ -166,19 +166,19 @@ Scrapling (+8226) leads this category, and accessibility-tree browsing (agent-br
 
 ### 💬 Most-discussed
 
-- [Carnegie Mellon is putting computer science courses on YouTube for free](https://news.ycombinator.com/item?id=50522980) — Hacker News, 2276 points
-- [New Evidence Shows School Phone Bans Are Gradually Improving Test Scores](https://news.ycombinator.com/item?id=50530163) — Hacker News, 1145 points
-- [GPT‑6.2 Astra and Sol](https://news.ycombinator.com/item?id=50535230) — Hacker News, 1058 points
-- [Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings](https://news.ycombinator.com/item?id=50517488) — Hacker News, 952 points
-- [How to make almost anything](https://news.ycombinator.com/item?id=50514470) — Hacker News, 905 points
-- [Qwen4-Max](https://news.ycombinator.com/item?id=50513215) — Hacker News, 874 points
-- [Technical issue at JPMorgan Chase triggers online banking delays for US banks](https://news.ycombinator.com/item?id=50521045) — Hacker News, 821 points
-- [BugMeNot has closed](https://news.ycombinator.com/item?id=50523601) — Hacker News, 712 points
-- [Windows 11 is collecting data on which coding agents and developer tools you use](https://news.ycombinator.com/item?id=50524736) — Hacker News, 709 points
-- [Optimizely compromised, served malware on Zoom, GitLab](https://news.ycombinator.com/item?id=50524767) — Hacker News, 664 points
-- [Apple Services Down](https://news.ycombinator.com/item?id=50535238) — Hacker News, 619 points
-- [Universal XSS in uBlock Origin from website-driven element picker](https://news.ycombinator.com/item?id=50513160) — Hacker News, 610 points
-- [Frame – 31.5" color ePaper display](https://news.ycombinator.com/item?id=50519354) — Hacker News, 523 points
-- [Java4Shell: RCE in OpenJDK when processing Base64](https://news.ycombinator.com/item?id=50538240) — Hacker News, 453 points
-- [Highly classified US national security communications network goes down](https://news.ycombinator.com/item?id=50532849) — Hacker News, 450 points
+- [GPT‑6.2 Astra and Sol](https://news.ycombinator.com/item?id=50535230) — Hacker News, 1336 points
+- [New Evidence Shows School Phone Bans Are Gradually Improving Test Scores](https://news.ycombinator.com/item?id=50530163) — Hacker News, 1282 points
+- [Java4Shell: RCE in OpenJDK when processing Base64](https://news.ycombinator.com/item?id=50538240) — Hacker News, 1151 points
+- [Unauthenticated remote code execution in Nginx](https://news.ycombinator.com/item?id=50547374) — Hacker News, 1060 points
+- [Quad9's withdrawal from France: A canary in the coal mine](https://news.ycombinator.com/item?id=50538994) — Hacker News, 880 points
+- [AI is killing All About Berlin](https://news.ycombinator.com/item?id=50542705) — Hacker News, 750 points
+- [Apple Services Down](https://news.ycombinator.com/item?id=50535238) — Hacker News, 718 points
+- [Google's AI answers reducing search traffic by 40%](https://news.ycombinator.com/item?id=50540178) — Hacker News, 687 points
+- [Highly classified US national security communications network goes down](https://news.ycombinator.com/item?id=50532849) — Hacker News, 663 points
+- [Nvidia stopped disclosing Singapore sales as revenues hit $104B](https://news.ycombinator.com/item?id=50534631) — Hacker News, 657 points
+- [DNS resolvers are the wrong place to fight piracy](https://news.ycombinator.com/item?id=50545958) — Hacker News, 568 points
+- [Inside Deutsche Bank](https://news.ycombinator.com/item?id=50547620) — Hacker News, 523 points
+- [ID.me terms required for IRS sign-in](https://news.ycombinator.com/item?id=50540437) — Hacker News, 491 points
+- [Interviewed at a YC startup, found out they used my LinkedIn without permission](https://news.ycombinator.com/item?id=50542135) — Hacker News, 485 points
+- [Phrack 73](https://news.ycombinator.com/item?id=50535992) — Hacker News, 459 points
 

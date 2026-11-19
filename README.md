@@ -106,37 +106,37 @@ dashboard (`site/`), or add tests (`tests/`). See the roadmap below.
 ## Latest
 
 <!-- TRENDFORGE:START -->
-## TrendForge daily report — 2026-11-18
+## TrendForge daily report — 2026-11-19
 
-_762 repositories and 120 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
+_758 repositories and 107 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
 
 ### 🔥 Trending technologies
 
 | # | Topic | Momentum | Change (7d) | Leading repos |
 |---|---|---|---|---|
-| 1 | **AI Agents** | 40.6k | +10% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [univer](https://github.com/dream-num/univer), [astryx](https://github.com/meta/astryx) |
-| 2 | **AI Coding Tools** | 34.2k | +97% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) |
-| 3 | **LLM Apps & RAG** | 33.6k | +67% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) |
-| 4 | **Developer Tools** | 21.2k | +10% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [photocraft](https://github.com/storytold/photocraft), [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) |
-| 5 | **Web & App Frameworks** | 18.6k | +8% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [astryx](https://github.com/meta/astryx), [superpowers](https://github.com/obra/superpowers) |
-| 6 | **Infra, Self-hosting & Security** | 14.4k | -0% | [cleanyourtv](https://github.com/Gathin23/cleanyourtv), [OpenMausBot](https://github.com/milind-soni/OpenMausBot), [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) |
-| 7 | **MCP Tooling** | 12.4k | +11% | [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill), [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp), [SoduWork](https://github.com/mdiri-ai/SoduWork) |
-| 8 | **Browser Agents** | 4.7k | -16% | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp), [agent-browser](https://github.com/vercel-labs/agent-browser), [nod](https://github.com/n8n-io/nod) |
+| 1 | **AI Agents** | 37.5k | +26% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [univer](https://github.com/dream-num/univer), [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) |
+| 2 | **AI Coding Tools** | 36.5k | +178% | [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [rust-anything](https://github.com/erkamyaman/rust-anything) |
+| 3 | **LLM Apps & RAG** | 35.4k | +186% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) |
+| 4 | **Developer Tools** | 20.0k | +27% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [rust-anything](https://github.com/erkamyaman/rust-anything), [photocraft](https://github.com/storytold/photocraft) |
+| 5 | **Web & App Frameworks** | 18.3k | +41% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [rust-anything](https://github.com/erkamyaman/rust-anything), [astryx](https://github.com/meta/astryx) |
+| 6 | **Infra, Self-hosting & Security** | 15.6k | +29% | [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter), [cleanyourtv](https://github.com/Gathin23/cleanyourtv), [SoduWork](https://github.com/mdiri-ai/SoduWork) |
+| 7 | **MCP Tooling** | 15.1k | +102% | [rust-anything](https://github.com/erkamyaman/rust-anything), [SoduWork](https://github.com/mdiri-ai/SoduWork), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) |
+| 8 | **ML & Research Code** | 5.0k | +483% | [paper-orchestra](https://github.com/google-research/paper-orchestra), [heretic](https://github.com/p-e-w/heretic), [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) |
 
 ### 🚀 Top repositories today
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 78.5k | +1.2k today | dsh plugin that claims free, unlimited access to frontier models with no API key. |
-| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 35.7k | +895 today | Rust project for understanding how software works and building your own. |
-| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 26.0k | +1.2k today | An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer. |
-| [dream-num/univer](https://github.com/dream-num/univer) | 28.9k | +1.8k today | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for peo… |
-| [meta/astryx](https://github.com/meta/astryx) | 30.1k | +520 today | Open-source design system that can be fully customized and is built to work with agents. |
-| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 12.1k | +894 today | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux |
-| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 8.4k | +437 today | Keep your coding agent up to date with the latest web best practices |
-| [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 7.7k | +1.3k today | Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Cod… |
-| [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 59.0k | +336 today | Tool that removes bloatware from Android or Google TV over Wi-Fi and adds an Apple TV-style home screen. |
-| [obra/superpowers](https://github.com/obra/superpowers) | 319.3k | +1.9k today | An agentic skills framework & software development methodology that works. |
+| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 37.0k | +1.3k today | Rust project for understanding how software works and building your own. |
+| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 79.8k | +1.2k today | dsh plugin that claims free, unlimited access to frontier models with no API key. |
+| [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | 11.3k | +2.3k today | A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curat… |
+| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 27.2k | +1.1k today | An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer. |
+| [dream-num/univer](https://github.com/dream-num/univer) | 29.9k | +1.2k today | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for peo… |
+| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 13.0k | +924 today | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux |
+| [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | 3.3k | +2.0k today | Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers a… |
+| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 8.8k | +380 today | Keep your coding agent up to date with the latest web best practices |
+| [krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) | 3.9k | +1.3k today | Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendo… |
+| [meta/astryx](https://github.com/meta/astryx) | 30.6k | +418 today | Open-source design system that can be fully customized and is built to work with agents. |
 
 ### 🎓 For students
 
@@ -144,23 +144,23 @@ _762 repositories and 120 discussions analyzed from api, hackernews, search, tre
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 83.4k | +247 today | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-frien… |
-| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 8.4k | +124 today | 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 |
-| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 3.1k | +59 today | Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, … |
-| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 87.2k | +75 today | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
-| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372.2k | +68 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
-| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.4k | +57 today | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate va… |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 289.9k | +72 today | Curated list of project-based tutorials |
-| [Xin-YuXiao/Awesome-AI-for-Astronomy](https://github.com/Xin-YuXiao/Awesome-AI-for-Astronomy) | 332 | +49 today | A curated list of papers for AI in Astronomy & Astrophysics. |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 83.6k | +194 today | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-frien… |
+| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 8.5k | +92 today | 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 |
+| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 87.3k | +90 today | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
+| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 3.2k | +90 today | Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, … |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372.3k | +74 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.4k | +42 today | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate va… |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 290.0k | +51 today | Curated list of project-based tutorials |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 401.8k | +73 today | :books: Freely available programming books |
 
 **Make your first open-source contribution** (active projects with many `good first issue`s)
 
-- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv/contribute) — 59.0k★ · Python
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 135.7k★ · C++
-- [nexu-io/open-design](https://github.com/nexu-io/open-design/contribute) — 108.1k★ · TypeScript
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk/contribute) — 86.9k★ · Rust
-- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands/contribute) — 93.7k★ · TypeScript
-- [pytorch/pytorch](https://github.com/pytorch/pytorch/contribute) — 105.8k★ · Python
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv/contribute) — 59.3k★ · Python
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 135.6k★ · C++
+- [nexu-io/open-design](https://github.com/nexu-io/open-design/contribute) — 108.3k★ · TypeScript
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk/contribute) — 87.1k★ · Rust
+- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands/contribute) — 93.8k★ · TypeScript
+- [vllm-project/vllm](https://github.com/vllm-project/vllm/contribute) — 97.2k★ · Python
 
 ### 💡 Build opportunities
 
