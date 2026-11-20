@@ -106,37 +106,37 @@ dashboard (`site/`), or add tests (`tests/`). See the roadmap below.
 ## Latest
 
 <!-- TRENDFORGE:START -->
-## TrendForge daily report — 2026-11-19
+## TrendForge daily report — 2026-11-20
 
-_758 repositories and 107 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
+_757 repositories and 116 discussions analyzed from api, hackernews, search, trending-daily, trending-weekly._
 
 ### 🔥 Trending technologies
 
 | # | Topic | Momentum | Change (7d) | Leading repos |
 |---|---|---|---|---|
-| 1 | **AI Agents** | 37.5k | +26% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [univer](https://github.com/dream-num/univer), [modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) |
-| 2 | **AI Coding Tools** | 36.5k | +178% | [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [rust-anything](https://github.com/erkamyaman/rust-anything) |
-| 3 | **LLM Apps & RAG** | 35.4k | +186% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) |
-| 4 | **Developer Tools** | 20.0k | +27% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [rust-anything](https://github.com/erkamyaman/rust-anything), [photocraft](https://github.com/storytold/photocraft) |
-| 5 | **Web & App Frameworks** | 18.3k | +41% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [rust-anything](https://github.com/erkamyaman/rust-anything), [astryx](https://github.com/meta/astryx) |
-| 6 | **Infra, Self-hosting & Security** | 15.6k | +29% | [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter), [cleanyourtv](https://github.com/Gathin23/cleanyourtv), [SoduWork](https://github.com/mdiri-ai/SoduWork) |
-| 7 | **MCP Tooling** | 15.1k | +102% | [rust-anything](https://github.com/erkamyaman/rust-anything), [SoduWork](https://github.com/mdiri-ai/SoduWork), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) |
-| 8 | **ML & Research Code** | 5.0k | +483% | [paper-orchestra](https://github.com/google-research/paper-orchestra), [heretic](https://github.com/p-e-w/heretic), [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) |
+| 1 | **AI Agents** | 34.9k | -19% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [univer](https://github.com/dream-num/univer), [SoduWork](https://github.com/mdiri-ai/SoduWork) |
+| 2 | **AI Coding Tools** | 30.7k | +18% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [rust-anything](https://github.com/erkamyaman/rust-anything), [SoduWork](https://github.com/mdiri-ai/SoduWork) |
+| 3 | **LLM Apps & RAG** | 28.2k | +5% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [last30days-skill](https://github.com/mvanhorn/last30days-skill) |
+| 4 | **Web & App Frameworks** | 17.0k | +30% | [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go), [rust-anything](https://github.com/erkamyaman/rust-anything), [superpowers](https://github.com/obra/superpowers) |
+| 5 | **Developer Tools** | 16.7k | -40% | [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model), [rust-anything](https://github.com/erkamyaman/rust-anything), [photocraft](https://github.com/storytold/photocraft) |
+| 6 | **MCP Tooling** | 14.9k | +29% | [rust-anything](https://github.com/erkamyaman/rust-anything), [SoduWork](https://github.com/mdiri-ai/SoduWork), [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) |
+| 7 | **Infra, Self-hosting & Security** | 11.9k | -40% | [SoduWork](https://github.com/mdiri-ai/SoduWork), [cleanyourtv](https://github.com/Gathin23/cleanyourtv), [Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) |
+| 8 | **Local Inference** | 5.8k | -2% | [linger](https://github.com/simplexai-labs/linger), [yogurt](https://github.com/FrigadeHQ/yogurt), [blender-ai-mcp-addon](https://github.com/bookwjitchieni1986/blender-ai-mcp-addon) |
 
 ### 🚀 Top repositories today
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 37.0k | +1.3k today | Rust project for understanding how software works and building your own. |
-| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 79.8k | +1.2k today | dsh plugin that claims free, unlimited access to frontier models with no API key. |
-| [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | 11.3k | +2.3k today | A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curat… |
-| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 27.2k | +1.1k today | An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer. |
-| [dream-num/univer](https://github.com/dream-num/univer) | 29.9k | +1.2k today | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for peo… |
-| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 13.0k | +924 today | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux |
-| [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | 3.3k | +2.0k today | Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers a… |
-| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 8.8k | +380 today | Keep your coding agent up to date with the latest web best practices |
-| [krisgfx9/Wireless-Device-Battery-Monitor](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) | 3.9k | +1.3k today | Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendo… |
-| [meta/astryx](https://github.com/meta/astryx) | 30.6k | +418 today | Open-source design system that can be fully customized and is built to work with agents. |
+| [storytold/craft-anything](https://github.com/storytold/craft-anything) | 38.5k | +1.5k today | Rust project for understanding how software works and building your own. |
+| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 81.0k | +1.2k today | dsh plugin that claims free, unlimited access to frontier models with no API key. |
+| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 28.2k | +1.0k today | An Android client for DeepSeek Harness that runs on the phone itself or remotely controls DSH on a computer. |
+| [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | 5.2k | +1.8k today | Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers a… |
+| [dream-num/univer](https://github.com/dream-num/univer) | 30.4k | +557 today | Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for peo… |
+| [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) | 4.2k | +1.3k today | The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted. |
+| [anefzaoui/misterdownloadmanager](https://github.com/anefzaoui/misterdownloadmanager) | 13.7k | +736 today | misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux |
+| [obra/superpowers](https://github.com/obra/superpowers) | 322.1k | +2.0k today | An agentic skills framework & software development methodology that works. |
+| [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | 9.1k | +285 today | Keep your coding agent up to date with the latest web best practices |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 70.8k | +954 today | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary |
 
 ### 🎓 For students
 
@@ -144,22 +144,22 @@ _758 repositories and 107 discussions analyzed from api, hackernews, search, tre
 
 | Repository | Stars | Growth | What it is |
 |---|---|---|---|
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 83.6k | +194 today | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-frien… |
-| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 8.5k | +92 today | 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 |
-| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 87.3k | +90 today | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
-| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 3.2k | +90 today | Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, … |
-| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372.3k | +74 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
-| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.4k | +42 today | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate va… |
-| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 290.0k | +51 today | Curated list of project-based tutorials |
-| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 401.8k | +73 today | :books: Freely available programming books |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 83.8k | +240 today | Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-frien… |
+| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 8.7k | +142 today | 数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。 |
+| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 87.4k | +95 today | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程 |
+| [reacher-z/Awesome-REA](https://github.com/reacher-z/Awesome-REA) | 3.2k | +50 today | Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, … |
+| [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 372.4k | +74 today | Interactive roadmaps, guides and other educational content to help developers grow in their careers. |
+| [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) | 290.1k | +67 today | Curated list of project-based tutorials |
+| [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 401.9k | +61 today | :books: Freely available programming books |
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | 47.4k | +29 today | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate va… |
 
 **Make your first open-source contribution** (active projects with many `good first issue`s)
 
-- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv/contribute) — 59.3k★ · Python
-- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 135.6k★ · C++
-- [nexu-io/open-design](https://github.com/nexu-io/open-design/contribute) — 108.3k★ · TypeScript
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk/contribute) — 87.1k★ · Rust
-- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands/contribute) — 93.8k★ · TypeScript
+- [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv/contribute) — 59.6k★ · Python
+- [nexu-io/open-design](https://github.com/nexu-io/open-design/contribute) — 108.5k★ · TypeScript
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/contribute) — 135.8k★ · C++
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk/contribute) — 87.2k★ · Rust
+- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands/contribute) — 93.9k★ · TypeScript
 - [vllm-project/vllm](https://github.com/vllm-project/vllm/contribute) — 97.2k★ · Python
 
 ### 💡 Build opportunities
@@ -194,15 +194,15 @@ Users want output that doesn't look AI-generated and agents that remember contex
 - **Memory Inspector** _(beginner 🎓)_ — A local UI for browsing, editing and deleting the compressed sessions stored by claude-mem-style plugins. Heavy agent users would use it.
 - **Ontology-to-RAG Adapter** _(advanced)_ — A library that adds results from an auto-ontology graph to vector search retrieval. RAG builders would use it.
 
-#### Developer Tools
+#### Web & App Frameworks
 
-Rust CLIs built for agents lead this category: agent-desktop gained +12120 and worktrunk gained +2395. Worktree management and PR review (pr-agent, +1822) point to developers running several agents in parallel. sherlock (+4267) is still drawing strong interest.
+Web frameworks are being redesigned with agents as users. meta/astryx (+3278) is a design system built for agents, and Scrapling (+8226) is a scraping framework. Open alternatives to Grok Bot are also rising, such as OpenMausBot (+1587) and rakazo (+143).
 
-**Gaps:** No dashboard showing which agent is working in which worktree; AI-written PRs are hard to tie back to the agent session that produced them; No simple check of whether a tool's claims are legitimate (for example, dsh-our-free-model's claim of free, unlimited model access with no API key)
+**Gaps:** No way to check whether agent-generated UI actually follows a design system; Few templates for web front ends that let people supervise sandboxed bots; Few mobile-first interfaces for controlling agents
 
-- **Worktree Board** _(beginner 🎓)_ — A terminal UI that shows each Git worktree with its branch, the agent running in it, its diff size and test status. Developers running parallel agents would use it.
-- **PR Provenance** _(intermediate 🎓)_ — A git hook plus a GitHub Action that attaches a summary of the agent session and its prompts to each PR. Reviewers using pr-agent-style tools would use it.
-- **Repo Trust Check** _(intermediate 🎓)_ — A CLI that reviews a plugin repo before installation, checking its network calls, credential use and install scripts. Developers trying trending plugins would use it.
+- **Design System Linter for Agents** _(intermediate 🎓)_ — A CI check that flags components and tokens in agent-written UI that don't come from astryx or another chosen design system. Frontend teams using coding agents would use it.
+- **Sandbox Bot Console Kit** _(intermediate 🎓)_ — A React starter app that streams the screen, logs and approval prompts from a bot's VM or sandbox. Builders of OpenMausBot or rakazo deployments would use it.
+- **Source-to-Digest Starter** _(beginner 🎓)_ — A small template that uses Scrapling to pull from configured sources and publishes a static daily digest site. Niche communities and students would use it.
 
 <!-- TRENDFORGE:END -->
 
